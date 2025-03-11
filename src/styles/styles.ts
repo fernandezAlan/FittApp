@@ -137,3 +137,234 @@ export const ExerciseStyles = StyleSheet.create({
     flexShrink: 1,
   },
 });
+
+export const ProgressStyles = StyleSheet.create({
+  container: {
+    padding: 20,
+    flexGrow: 1,
+  },
+  backgroundImage: {
+    flex: 1,
+    justifyContent: "center",
+  },
+  overlay: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: "'rgba(0,0,0,0.8)'",
+  },
+  header: {
+    marginBottom: 20,
+  },
+  greeting: {
+    fontSize: 24,
+    color: "#facc15",
+    fontWeight: "bold",
+  },
+  subtitle: {
+    fontSize: 18,
+    color: "#fff",
+    marginTop: 10,
+  },
+  progressSection: {
+    marginBottom: 20,
+    padding: 20,
+    backgroundColor: "#1e293b9e",
+    borderRadius: 10,
+  },
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 10,
+    color: "#fff",
+  },
+  progressBar: {
+    height: 10,
+    borderRadius: 5,
+    marginBottom: 10,
+  },
+  progressText: {
+    fontSize: 16,
+    textAlign: "center",
+    color: "#fff",
+  },
+  workoutText: {
+    fontSize: 14,
+    textAlign: "center",
+    color: "#fff",
+  },
+  statsSection: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 20,
+    //backgroundColor: "#1e293b9e",
+  },
+  statBox: {
+    flex: 1,
+    padding: 10,
+    backgroundColor: "#1e293b9e",
+    borderRadius: 10,
+    //elevation: 5,
+    marginHorizontal: 5,
+    alignItems: "center",
+  },
+  statTitle: {
+    fontSize: 14,
+    fontWeight: "bold",
+    color: "#fff",
+  },
+  statValue: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#a3a1a1",
+    marginTop: 5,
+  },
+  historySection: {
+    marginBottom: 20,
+  },
+  historyItem: {
+    padding: 10,
+    backgroundColor: "#1e293b9e",
+    borderRadius: 5,
+    marginBottom: 5,
+    elevation: 3,
+  },
+  historyText: {
+    fontSize: 16,
+    color: "#fff",
+  },
+  quickActions: {
+    alignItems: "center",
+    marginBottom: 20,
+  },
+  quickActionCard: {
+    paddingVertical: 15,
+    paddingHorizontal: 25,
+    backgroundColor: "#facc15",
+    borderRadius: 30,
+    elevation: 5,
+  },
+  quickActionText: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#fff",
+  },
+});
+
+export const NutritionStyles = StyleSheet.create({
+  nutritionCard: {
+    borderRadius: 16,
+    padding: 16,
+    marginBottom: 20,
+  },
+  nutritionItem: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 12,
+  },
+  nutritionLabel: {
+    fontSize: 16,
+    color: "#E2E8F0",
+  },
+  nutritionValue: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#FACC15",
+  },
+  chartContainer: {
+    alignItems: "center",
+    marginBottom: 20,
+  },
+  inputContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#1E293B",
+    borderRadius: 12,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+  },
+  input: {
+    flex: 1,
+    color: "#F1F5F9",
+    fontSize: 16,
+  },
+  addButton: {
+    backgroundColor: "#FACC15",
+    borderRadius: 12,
+    padding: 12,
+    marginLeft: 10,
+  },
+  addButtonText: {
+    color: "#1E293B",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+});
+
+export const ProfileStyles = StyleSheet.create({
+  profileHeader: {
+    alignItems: "center",
+    marginBottom: 30,
+  },
+  profileImage: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    borderWidth: 3,
+    borderColor: "#FACC15",
+  },
+  profileName: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#F1F5F9",
+    marginTop: 10,
+  },
+  profileEmail: {
+    fontSize: 16,
+    color: "#94A3B8",
+    marginTop: 4,
+  },
+  statsContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 30,
+  },
+  statCard: {
+    backgroundColor: "#1E293B",
+    borderRadius: 12,
+    padding: 16,
+    width: "30%",
+    alignItems: "center",
+  },
+  statLabel: {
+    fontSize: 14,
+    color: "#94A3B8",
+  },
+  statValue: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#FACC15",
+    marginTop: 8,
+  },
+  settingsSection: {
+    marginBottom: 30,
+  },
+  settingItem: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    backgroundColor: "#1E293B",
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 12,
+  },
+  settingText: {
+    fontSize: 16,
+    color: "#F1F5F9",
+  },
+  iconButton: {
+    padding: 8,
+  },
+});

@@ -1,6 +1,8 @@
-import { View, Text, ScrollView } from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
+import { View, Text, ScrollView, ImageBackground } from 'react-native';
+import { Stack, useLocalSearchParams, useNavigation } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useEffect } from 'react';
+import { HomeStyles } from '@/src/styles/styles';
 interface MockRoutinesI {
     '1': {
         name: string;
@@ -79,21 +81,43 @@ const mockRoutines:MockRoutinesI =  {
 export default function RoutineDetailScreen() {
   const { id } = useLocalSearchParams();
   const routine = mockRoutines[id as '1' | '2' | '3'];
+  const navigation = useNavigation();
 
+  useEffect(() => {
+    navigation.setOptions({ headerShown: true });
+  }, [navigation]);
+  
   if (!routine) {
     return (
+      <>
       <SafeAreaView style={{ flex: 1, backgroundColor: '#0f172a', padding: 16 }}>
         <Text style={{ color: 'white', fontSize: 18 }}>Rutina no encontrada 😓</Text>
       </SafeAreaView>
+      </>
     );
   }
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#0f172a' }}>
+      <>
+       <ImageBackground
+            source={require("../../../assets/images/fitness-bg.jpg")}
+            style={HomeStyles.backgroundImage}
+            resizeMode="cover"
+          >
+    <SafeAreaView style={{ flex: 1 }}>
+    <View style={HomeStyles.overlay} />
+    <Stack.Screen
+        options={{
+          title: mockRoutines[id as '1' | '2' | '3'].name,
+          headerStyle: { backgroundColor: 'black' },
+          headerTintColor: '#facc15',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+            fontSize:25
+          },
+        }}
+      />
       <ScrollView contentContainerStyle={{ padding: 16 }}>
-        <Text style={{ color: '#facc15', fontSize: 24, fontWeight: 'bold', marginBottom: 8 }}>
-          {routine.name}
-        </Text>
         <Text style={{ color: '#94a3b8', fontSize: 16, marginBottom: 4 }}>
           🗓️ {routine.daysPerWeek} días por semana
         </Text>
@@ -103,13 +127,13 @@ export default function RoutineDetailScreen() {
 
         {Object.entries(routine.schedule).map(([day, exercises]) => (
           <View
-            key={day}
-            style={{
-              backgroundColor: '#1e293b',
-              borderRadius: 12,
-              padding: 16,
-              marginBottom: 12,
-            }}
+          key={day}
+          style={{
+            backgroundColor: '#1e293b',
+            borderRadius: 12,
+            padding: 16,
+            marginBottom: 12,
+          }}
           >
             <Text style={{ color: '#f1f5f9', fontSize: 18, fontWeight: '600', marginBottom: 8 }}>
               {day}
@@ -123,5 +147,7 @@ export default function RoutineDetailScreen() {
         ))}
       </ScrollView>
     </SafeAreaView>
+    </ImageBackground>
+  </>
   );
 }
