@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   View,
   Text,
@@ -6,13 +6,23 @@ import {
   Image,
   TouchableOpacity,
   ImageBackground,
+  ActivityIndicator
 } from "react-native";
 import IMCbox from "@/src/components/IMCbox";
 import { HomeStyles as styles } from "../../src/styles/styles";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView,SafeAreaProvider } from "react-native-safe-area-context";
+import { useAuth } from "../auth";
 
 const HomeScreen = () => {
+  const { isLoading, authenticated } = useAuth();
+  if (isLoading) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="#FACC15" />
+      </View>
+    );
+  }
   return (
     <>
       <StatusBar style="light" backgroundColor="black"/>

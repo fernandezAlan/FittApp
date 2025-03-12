@@ -6,13 +6,23 @@ import {
   Image,
   TouchableOpacity,
   ImageBackground,
+  ActivityIndicator,
 } from "react-native";
-import { HomeStyles,ProfileStyles } from "../../src/styles/styles"; // Estilos generales
+import { HomeStyles, ProfileStyles } from "../../src/styles/styles"; // Estilos generales
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
+import { useAuth } from "../auth";
 
 const ProfileScreen = () => {
+  const { logOut, isLoading } = useAuth();
+  if (isLoading) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="#FACC15" />
+      </View>
+    );
+  }
   return (
     <>
       <StatusBar style="light" backgroundColor="black" />
@@ -34,7 +44,9 @@ const ProfileScreen = () => {
                   style={ProfileStyles.profileImage}
                 />
                 <Text style={ProfileStyles.profileName}>Juan Pérez</Text>
-                <Text style={ProfileStyles.profileEmail}>juan.perez@example.com</Text>
+                <Text style={ProfileStyles.profileEmail}>
+                  juan.perez@example.com
+                </Text>
               </View>
 
               {/* Estadísticas del Usuario */}
@@ -61,14 +73,19 @@ const ProfileScreen = () => {
                   <Ionicons name="chevron-forward" size={24} color="#94A3B8" />
                 </TouchableOpacity>
                 <TouchableOpacity style={ProfileStyles.settingItem}>
-                  <Text style={ProfileStyles.settingText}>Cambiar Contraseña</Text>
+                  <Text style={ProfileStyles.settingText}>
+                    Cambiar Contraseña
+                  </Text>
                   <Ionicons name="chevron-forward" size={24} color="#94A3B8" />
                 </TouchableOpacity>
                 <TouchableOpacity style={ProfileStyles.settingItem}>
                   <Text style={ProfileStyles.settingText}>Privacidad</Text>
                   <Ionicons name="chevron-forward" size={24} color="#94A3B8" />
                 </TouchableOpacity>
-                <TouchableOpacity style={ProfileStyles.settingItem}>
+                <TouchableOpacity
+                  style={ProfileStyles.settingItem}
+                  onPress={logOut}
+                >
                   <Text style={ProfileStyles.settingText}>Cerrar Sesión</Text>
                   <Ionicons name="log-out-outline" size={24} color="#EF4444" />
                 </TouchableOpacity>

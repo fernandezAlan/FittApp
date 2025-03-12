@@ -368,3 +368,60 @@ export const ProfileStyles = StyleSheet.create({
     padding: 8,
   },
 });
+
+export const LoginStyles = StyleSheet.create({
+  backgroundImage: {
+    flex: 1,
+  },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(0,0,0,0.8)",
+  },
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    paddingHorizontal: 20,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: "bold",
+    color: "#F1F5F9",
+    marginBottom: 8,
+    textAlign: "center",
+  },
+  subtitle: {
+    fontSize: 16,
+    color: "#94A3B8",
+    marginBottom: 24,
+    textAlign: "center",
+  },
+  inputContainer: {
+    marginBottom: 20,
+  },
+  input: {
+    backgroundColor: "#1E293B",
+    color: "#E2E8F0",
+    padding: 14,
+    borderRadius: 10,
+    marginBottom: 12,
+    fontSize: 16,
+  },
+  loginButton: {
+    backgroundColor: "#FACC15",
+    paddingVertical: 16,
+    borderRadius: 10,
+    alignItems: "center",
+    marginBottom: 16,
+  },
+  loginButtonText: {
+    color: "#1E293B",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  registerLink: {
+    color: "#94A3B8",
+    textAlign: "center",
+    fontSize: 14,
+    textDecorationLine: "underline",
+  },
+});
