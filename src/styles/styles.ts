@@ -425,3 +425,38 @@ export const LoginStyles = StyleSheet.create({
     textDecorationLine: "underline",
   },
 });
+
+export const CompleteProfileStyles = StyleSheet.create({
+  container: {
+    padding: 20,
+    paddingTop: 40,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#F1F5F9",
+    marginBottom: 24,
+    textAlign: "center",
+  },
+  input: {
+    backgroundColor: "#1E293B",
+    color: "#F1F5F9",
+    borderRadius: 12,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    fontSize: 16,
+    marginBottom: 16,
+  },
+  button: {
+    backgroundColor: "#FACC15",
+    paddingVertical: 16,
+    borderRadius: 12,
+    alignItems: "center",
+    marginTop: 10,
+  },
+  buttonText: {
+    color: "#0F172A",
+    fontWeight: "bold",
+    fontSize: 16,
+  },
+});

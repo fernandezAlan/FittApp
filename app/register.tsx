@@ -25,7 +25,7 @@ const RegisterScreen = () => {
 
     // Simula registro exitoso
     await AsyncStorage.setItem("token", "dummy-auth-token");
-    router.push("/");
+    router.push("/onboarding");
   };
 
   return (
