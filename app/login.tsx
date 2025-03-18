@@ -12,18 +12,17 @@ import { StatusBar } from "expo-status-bar";
 import { router } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { HomeStyles as styles } from "../src/styles/styles";
+import { auth } from "@/src/firebase/firebaseConfig";
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 const LoginScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleLogin = async () => {
-    if (email === "test@email.com" && password === "123456") {
-      await AsyncStorage.setItem("token", "dummy-auth-token");
-      router.push("/");
-    } else {
-      Alert.alert("Error", "Correo o contraseña incorrectos");
-    }
+    await signInWithEmailAndPassword(auth, email, password);
+    await AsyncStorage.setItem("token", "dummy-auth-token");
+    router.push("/");
   };
 
   return (

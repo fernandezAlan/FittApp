@@ -7,6 +7,7 @@ export default function Layout() {
         animationDuration:2,
         animation: "slide_from_right", // 👈 transición suave
         headerShown: true,            // ocultar header si no lo usás
+        
       }}
     />
   );
