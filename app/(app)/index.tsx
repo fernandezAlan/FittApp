@@ -12,17 +12,21 @@ import IMCbox from "@/src/components/IMCbox";
 import { HomeStyles as styles } from "../../src/styles/styles";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView,SafeAreaProvider } from "react-native-safe-area-context";
-import { useAuth } from "../auth";
+import { useAuth } from "@/src/context/AuthContext";
+//import { useAuth } from "../auth";
 
 const HomeScreen = () => {
-  const { isLoading, authenticated } = useAuth();
+  //const { isLoading, authenticated } = useAuth();
+  const {user} = useAuth()
+  /*
   if (isLoading) {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <ActivityIndicator size="large" color="#FACC15" />
+      <ActivityIndicator size="large" color="#FACC15" />
       </View>
     );
   }
+  */
   return (
     <>
       <StatusBar style="light" backgroundColor="black"/>
@@ -40,7 +44,7 @@ const HomeScreen = () => {
           >
             {/* Header */}
             <View style={styles.header}>
-              <Text style={styles.greeting}>Hola, Usuario 👋</Text>
+              <Text style={styles.greeting}>Hola, {user?.name}</Text>
               <Text style={styles.subtitle}>¡Listo para entrenar hoy?</Text>
             </View>
 

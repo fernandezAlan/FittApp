@@ -5,8 +5,8 @@ export default function Layout() {
     <Stack
       screenOptions={{
         animationDuration:2,
-        animation: "slide_from_right", // 👈 transición suave
-        headerShown: true,            // ocultar header si no lo usás
+        animation: "slide_from_right", 
+        headerShown: true,            
         
       }}
     />

@@ -16,12 +16,16 @@ import { HomeStyles as styles } from "../src/styles/styles";
 import { auth } from "@/src/firebase/firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useGoogleAuth } from "@/src/hooks/useGoogleAuth";
+import { User } from "firebase/auth";
+import { useAuth } from "@/src/context/AuthContext";
+
 const RegisterScreen = () => {
   const [email, setEmail] = useState("");
+  const [authData,setAuthData] = useState<User | null>(null)
   const [password, setPassword] = useState("");
 
   const { promptAsync, request } = useGoogleAuth();
-
+  const userContext = useAuth()
   const handleRegister = async () => {
     try {
       if (!email || !password) {
@@ -31,7 +35,8 @@ const RegisterScreen = () => {
 
       // Simula registro exitoso
       await AsyncStorage.setItem("token", "dummy-auth-token");
-      await createUserWithEmailAndPassword(auth, email, password);
+      const user = await createUserWithEmailAndPassword(auth, email, password);
+      userContext.setUserAuth(user.user)
       router.push("/onboarding");
     } catch (error) {
       Alert.alert("error al registrarse: " + error);
@@ -95,11 +100,13 @@ const RegisterScreen = () => {
               onChangeText={setPassword}
               secureTextEntry
             />
+            {/*
             <Button
               title="Iniciar sesión con Google"
               onPress={() => promptAsync()}
               disabled={!request}
             />
+            */}
             <TouchableOpacity
               style={{
                 backgroundColor: "#FACC15",

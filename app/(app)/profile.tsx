@@ -12,17 +12,23 @@ import { HomeStyles, ProfileStyles } from "../../src/styles/styles"; // Estilos 
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
-import { useAuth } from "../auth";
+import { useAuth } from "@/src/context/AuthContext";
+import { calculateBMI } from "@/src/utils/utils";
+//import { useAuth } from "../auth";
 
 const ProfileScreen = () => {
-  const { logOut, isLoading } = useAuth();
+  const { user,logOut } = useAuth();
+  const IMC = user?.weight && user.height ? calculateBMI(user.weight,user.height) : null
+  console.log("user-profile:",user)
+  /*
   if (isLoading) {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <ActivityIndicator size="large" color="#FACC15" />
+      <ActivityIndicator size="large" color="#FACC15" />
       </View>
     );
   }
+  */
   return (
     <>
       <StatusBar style="light" backgroundColor="black" />
@@ -39,13 +45,13 @@ const ProfileScreen = () => {
               <View style={ProfileStyles.profileHeader}>
                 <Image
                   source={{
-                    uri: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+                    uri: user?.imgURL ? user.imgURL : "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
                   }}
                   style={ProfileStyles.profileImage}
                 />
-                <Text style={ProfileStyles.profileName}>Juan Pérez</Text>
+                <Text style={ProfileStyles.profileName}>{user?.name}</Text>
                 <Text style={ProfileStyles.profileEmail}>
-                  juan.perez@example.com
+                  {user?.auth?.email}
                 </Text>
               </View>
 
@@ -53,15 +59,15 @@ const ProfileScreen = () => {
               <View style={ProfileStyles.statsContainer}>
                 <View style={ProfileStyles.statCard}>
                   <Text style={ProfileStyles.statLabel}>Peso</Text>
-                  <Text style={ProfileStyles.statValue}>75 kg</Text>
+                  <Text style={ProfileStyles.statValue}>{user?.weight} kg</Text>
                 </View>
                 <View style={ProfileStyles.statCard}>
                   <Text style={ProfileStyles.statLabel}>Altura</Text>
-                  <Text style={ProfileStyles.statValue}>175 cm</Text>
+                  <Text style={ProfileStyles.statValue}>{user?.height} cm</Text>
                 </View>
                 <View style={ProfileStyles.statCard}>
                   <Text style={ProfileStyles.statLabel}>IMC</Text>
-                  <Text style={ProfileStyles.statValue}>24.5</Text>
+                  <Text style={ProfileStyles.statValue}>{IMC}</Text>
                 </View>
               </View>
 

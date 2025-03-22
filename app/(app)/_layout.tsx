@@ -1,12 +1,12 @@
 import { Tabs } from 'expo-router';
 import {  Ionicons } from '@expo/vector-icons';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
-
+import { AuthProvider } from '@/src/context/AuthContext';
 
 
 export default function TabLayout() {
   return (
-    
+    <AuthProvider>
   <Tabs
   screenOptions={({ route }) => ({
     tabBarActiveTintColor: 'white',
@@ -70,5 +70,6 @@ export default function TabLayout() {
   }}
   />
   </Tabs>
+  </AuthProvider>
 );
 }

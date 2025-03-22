@@ -29,7 +29,8 @@ export default function Step8Summary() {
     <View style={styles.container}>
       <Text style={styles.title}>¡Todo listo!</Text>
       <Text style={{ color: "#CBD5E1", marginBottom: 20 }}>
-        Ya podés comenzar a usar la app con tu perfil personalizado.
+        ¡Todo listo!
+        Ya podés comenzar a usar la app
       </Text>
       <TouchableOpacity
         style={styles.button}

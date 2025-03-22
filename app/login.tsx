@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   View,
   Text,
@@ -14,15 +14,30 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { HomeStyles as styles } from "../src/styles/styles";
 import { auth } from "@/src/firebase/firebaseConfig";
 import { signInWithEmailAndPassword } from "firebase/auth";
+import { handleFirebaseError } from "@/src/utils/authUtils";
 
 const LoginScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [err,setErr] = useState("")
+  useEffect(()=>{
+      console.log("err")
+    },[])
+  useEffect(()=>{
+    setErr("")
+  },[email,password])
+
+  
 
   const handleLogin = async () => {
-    await signInWithEmailAndPassword(auth, email, password);
-    await AsyncStorage.setItem("token", "dummy-auth-token");
-    router.push("/");
+    try{
+      await signInWithEmailAndPassword(auth, email, password);
+      await AsyncStorage.setItem("token", "dummy-auth-token");
+      router.push("/");
+    }catch(error:any){
+      let e = handleFirebaseError(error.code)
+      setErr(e)
+    }
   };
 
   return (
@@ -107,6 +122,12 @@ const LoginScreen = () => {
                 <Text style={{ fontWeight: "bold" }}>Registrate</Text>
               </Text>
             </TouchableOpacity>
+            {err!== "" && <Text 
+            style={{
+              position:"relative",
+              color:"red",
+              textAlign:"center"
+            }}>{err}</Text>}
           </View>
         </SafeAreaView>
       </ImageBackground>
