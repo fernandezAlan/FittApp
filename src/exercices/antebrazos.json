@@ -1,0 +1,220 @@
+[
+  {
+    "id": "curl-muneca-barra",
+    "nombre": "Curl de muñeca con barra",
+    "nombre_ingles": "Barbell Wrist Curl",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["barra"],
+    "nivel": "principiante",
+    "descripcion": "Fortalece los músculos flexores del antebrazo.",
+    "instrucciones": [
+      "Sentate en un banco con los antebrazos apoyados en los muslos y las palmas hacia arriba.",
+      "Sostené una barra con ambas manos, dejando que las muñecas cuelguen del borde.",
+      "Flexioná solo las muñecas, levantando la barra.",
+      "Bajá lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "Mantené los antebrazos apoyados todo el tiempo.",
+      "Evitá usar impulso."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=U21G2-Cu5KA",
+    "imagen": "https://example.com/images/curl-muneca-barra.jpg",
+    "advertencias": "No uses demasiado peso, priorizá la técnica."
+  },
+  {
+    "id": "curl-muneca-inverso-barra",
+    "nombre": "Curl de muñeca inverso con barra",
+    "nombre_ingles": "Reverse Barbell Wrist Curl",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["barra"],
+    "nivel": "intermedio",
+    "descripcion": "Trabaja los músculos extensores del antebrazo.",
+    "instrucciones": [
+      "Misma posición que el curl tradicional, pero con palmas hacia abajo.",
+      "Flexioná las muñecas hacia arriba contrayendo los extensores.",
+      "Bajá lentamente la barra controlando el movimiento."
+    ],
+    "consejos": [
+      "Usá menos peso que en el curl tradicional.",
+      "Mové solo las muñecas."
+    ],
+    "repeticiones_sugeridas": "3 series de 12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=G7v3n9NhHaY",
+    "imagen": "https://example.com/images/curl-inverso-barra.jpg",
+    "advertencias": "No encorvés la espalda."
+  },
+  {
+    "id": "curl-muneca-mancuernas",
+    "nombre": "Curl de muñeca con mancuernas",
+    "nombre_ingles": "Dumbbell Wrist Curl",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["mancuernas"],
+    "nivel": "principiante",
+    "descripcion": "Versión con mancuernas que permite mayor control unilateral.",
+    "instrucciones": [
+      "Sentate en un banco con una mancuerna en cada mano, palmas hacia arriba.",
+      "Apoyá los antebrazos sobre los muslos.",
+      "Flexioná las muñecas hacia arriba y bajá lento."
+    ],
+    "consejos": [
+      "No muevas los antebrazos.",
+      "Controlá el descenso."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=GAMjNmnU6mY",
+    "imagen": "https://example.com/images/curl-muneca-mancuerna.jpg",
+    "advertencias": "No balancees las mancuernas."
+  },
+  {
+    "id": "curl-reverso-mancuernas",
+    "nombre": "Curl inverso con mancuernas",
+    "nombre_ingles": "Reverse Dumbbell Curl",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": ["bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Trabaja extensores del antebrazo y braquiorradial.",
+    "instrucciones": [
+      "De pie, sostené una mancuerna en cada mano con agarre prono.",
+      "Flexioná los codos manteniendo las palmas hacia abajo.",
+      "Descendé lentamente."
+    ],
+    "consejos": [
+      "Evitá balancearte.",
+      "Usá poco peso al principio."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=dtW5waJXw6o",
+    "imagen": "https://example.com/images/curl-reverso-mancuernas.jpg",
+    "advertencias": "No uses impulso con la espalda."
+  },
+  {
+    "id": "curl-martillo",
+    "nombre": "Curl martillo",
+    "nombre_ingles": "Hammer Curl",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": ["bíceps", "braquial"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Trabaja fuertemente el braquiorradial del antebrazo.",
+    "instrucciones": [
+      "Sostené una mancuerna en cada mano con agarre neutro (palmas hacia adentro).",
+      "Flexioná los codos sin rotar las muñecas.",
+      "Bajá lento a la posición inicial."
+    ],
+    "consejos": [
+      "Mantené el torso firme.",
+      "Controlá todo el movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=zC3nLlEvin4",
+    "imagen": "https://example.com/images/curl-martillo.jpg",
+    "advertencias": "No arquées la espalda."
+  },
+  {
+    "id": "rollo-muneca",
+    "nombre": "Rollo de muñeca con cuerda",
+    "nombre_ingles": "Wrist Roller",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["wrist roller"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio muy completo para fortalecer todo el antebrazo.",
+    "instrucciones": [
+      "Sujetá el rodillo con los brazos extendidos al frente.",
+      "Giralo con las muñecas para enrollar una cuerda con peso.",
+      "Desenrollá controladamente."
+    ],
+    "consejos": [
+      "Hacé el movimiento lento y constante.",
+      "No bajes los brazos."
+    ],
+    "repeticiones_sugeridas": "3 vueltas completas (subida y bajada)",
+    "url_video": "https://www.youtube.com/watch?v=0jX7CL6rY9o",
+    "imagen": "https://example.com/images/wrist-roller.jpg",
+    "advertencias": "No uses demasiado peso al empezar."
+  },
+  {
+    "id": "prono-supino-muneca",
+    "nombre": "Rotación prono-supino de muñeca",
+    "nombre_ingles": "Wrist Pronation & Supination",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["mancuerna ligera" ],
+    "nivel": "intermedio",
+    "descripcion": "Fortalece músculos rotadores del antebrazo (pronadores y supinadores).",
+    "instrucciones": [
+      "Sentate con el antebrazo apoyado en el muslo, muñeca libre.",
+      "Sostené una mancuerna liviana con agarre neutro.",
+      "Rotá la muñeca girando el antebrazo de pronación a supinación.",
+      "Repetí de forma controlada."
+    ],
+    "consejos": [
+      "Usá poco peso para evitar tensión articular.",
+      "Movimiento lento y completo."
+    ],
+    "repeticiones_sugeridas": "3 series de 15 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=aycW8FAq1uA",
+    "imagen": "https://example.com/images/prono-supino.jpg",
+    "advertencias": "No fuerces el rango de movimiento."
+  },
+  {
+    "id": "gripper",
+    "nombre": "Apretar gripper",
+    "nombre_ingles": "Hand Gripper",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": ["mano"],
+    "tipo": "aislamiento",
+    "equipo": ["gripper"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio clásico para mejorar fuerza de agarre.",
+    "instrucciones": [
+      "Sostené el gripper con una mano.",
+      "Apretalo completamente hasta cerrar.",
+      "Liberá lentamente y repetí."
+    ],
+    "consejos": [
+      "Podés alternar repeticiones y aguantes isométricos.",
+      "No sobreentrenes el antebrazo."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-15 repeticiones por mano",
+    "url_video": "https://www.youtube.com/watch?v=Cy6bA4DqC1s",
+    "imagen": "https://example.com/images/gripper.jpg",
+    "advertencias": "No te excedas si sentís dolor."
+  },
+  {
+    "id": "toalla-colgada",
+    "nombre": "Colgado con toalla",
+    "nombre_ingles": "Towel Hang",
+    "grupo_muscular": "antebrazo",
+    "musculos_secundarios": ["dorsales", "core"],
+    "tipo": "compuesto",
+    "equipo": ["barra de dominadas", "toalla"],
+    "nivel": "avanzado",
+    "descripcion": "Ejercicio isométrico brutal para agarre y fuerza del antebrazo.",
+    "instrucciones": [
+      "Colgá una toalla sobre la barra de dominadas.",
+      "Sostenela con ambas manos y colgate.",
+      "Aguantá el máximo tiempo posible."
+    ],
+    "consejos": [
+      "Mantené el core firme.",
+      "Probalo con una sola toalla o dos según nivel."
+    ],
+    "repeticiones_sugeridas": "3 series de 20-30 segundos o más",
+    "url_video": "https://www.youtube.com/watch?v=qNQFYfS79qA",
+    "imagen": "https://example.com/images/towel-hang.jpg",
+    "advertencias": "Si sos principiante, hacelo con precaución."
+  }
+]

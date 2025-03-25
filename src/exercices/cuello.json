@@ -1,0 +1,218 @@
+[
+  {
+    "id": "flexion-cuello",
+    "nombre": "Flexión de cuello",
+    "nombre_ingles": "Neck Flexion",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "aislamiento",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para fortalecer la parte frontal del cuello.",
+    "instrucciones": [
+      "Sentate en una silla con la espalda recta.",
+      "Inclina la cabeza hacia adelante, acercando el mentón al pecho.",
+      "Vuelve a la posición inicial controlando el movimiento."
+    ],
+    "consejos": [
+      "Realizá el movimiento de manera lenta y controlada.",
+      "Mantén la espalda recta durante todo el ejercicio."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=INyL4PqHT3E",
+    "imagen": "https://example.com/images/flexion-cuello.jpg",
+    "advertencias": "Evita movimientos bruscos que puedan causar tensión excesiva."
+  },
+  {
+    "id": "extension-cuello",
+    "nombre": "Extensión de cuello",
+    "nombre_ingles": "Neck Extension",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "aislamiento",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para trabajar la parte posterior del cuello.",
+    "instrucciones": [
+      "Sentate en una silla con la espalda recta.",
+      "Inclina la cabeza hacia atrás lo más que puedas, mirando hacia el techo.",
+      "Vuelve a la posición inicial controlando el movimiento."
+    ],
+    "consejos": [
+      "No hagas movimientos rápidos para evitar lesiones.",
+      "Mantén una postura erguida durante todo el ejercicio."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=KcMOocnTcH4",
+    "imagen": "https://example.com/images/extension-cuello.jpg",
+    "advertencias": "No hagas movimientos bruscos que puedan generar tensión en la columna cervical."
+  },
+  {
+    "id": "inclinacion-lateral",
+    "nombre": "Inclinación lateral de cuello",
+    "nombre_ingles": "Neck Lateral Flexion",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "aislamiento",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para trabajar los músculos laterales del cuello.",
+    "instrucciones": [
+      "Sentate o párate con la espalda recta.",
+      "Inclina la cabeza hacia un lado, tratando de acercar la oreja al hombro.",
+      "Vuelve a la posición inicial controlando el movimiento."
+    ],
+    "consejos": [
+      "Evita doblar el cuello excesivamente.",
+      "Realiza el movimiento de forma lenta y controlada."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=Y9pN3hrFl64",
+    "imagen": "https://example.com/images/inclinacion-lateral-cuello.jpg",
+    "advertencias": "No uses fuerza excesiva, realiza el movimiento con suavidad."
+  },
+  {
+    "id": "rotacion-cuello",
+    "nombre": "Rotación de cuello",
+    "nombre_ingles": "Neck Rotation",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "aislamiento",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para mejorar la movilidad y flexibilidad del cuello.",
+    "instrucciones": [
+      "Sentate o párate con la espalda recta.",
+      "Gira la cabeza hacia un lado hasta que sientas un estiramiento cómodo.",
+      "Vuelve a la posición inicial y repite hacia el otro lado."
+    ],
+    "consejos": [
+      "No fuerces el movimiento, realiza el giro de forma controlada.",
+      "Realiza el ejercicio lentamente para evitar tensiones."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=4pGf6R2Xg4s",
+    "imagen": "https://example.com/images/rotacion-cuello.jpg",
+    "advertencias": "No realices movimientos bruscos que puedan tensar la columna cervical."
+  },
+  {
+    "id": "encogimiento-hombros",
+    "nombre": "Encogimiento de hombros",
+    "nombre_ingles": "Shoulder Shrugs",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios"],
+    "tipo": "aislamiento",
+    "equipo": ["mancuernas", "barra"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para fortalecer los músculos del cuello y los trapecios.",
+    "instrucciones": [
+      "Mantén las mancuernas a los lados o una barra frente a ti.",
+      "Levanta los hombros hacia las orejas, concentrándote en los músculos del cuello.",
+      "Baja lentamente los hombros a la posición inicial."
+    ],
+    "consejos": [
+      "No uses un peso demasiado pesado para evitar lesiones en el cuello.",
+      "Mantén la espalda recta durante todo el movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=0V5s9d9_vP0",
+    "imagen": "https://example.com/images/encogimiento-hombros.jpg",
+    "advertencias": "Evita forzar los hombros, realiza el ejercicio de manera controlada."
+  },
+  {
+    "id": "sostenimiento-cuello",
+    "nombre": "Sostenimiento de cuello con resistencia",
+    "nombre_ingles": "Neck Isometric Hold",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "aislamiento",
+    "equipo": ["resistencia manual o banda elástica"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio de isometría que trabaja los músculos del cuello.",
+    "instrucciones": [
+      "Coloca tus manos o una banda elástica sobre tu frente o detrás de tu cabeza.",
+      "Presiona contra tus manos o la banda elástica durante 10-20 segundos.",
+      "Relaja y repite el ejercicio en varias direcciones."
+    ],
+    "consejos": [
+      "No hagas presiones demasiado fuertes, mantén una resistencia controlada.",
+      "Mantén la postura recta durante el ejercicio."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-20 segundos por dirección",
+    "url_video": "https://www.youtube.com/watch?v=q6EGEXOACfw",
+    "imagen": "https://example.com/images/sostenimiento-cuello.jpg",
+    "advertencias": "Asegúrate de no exceder la presión para evitar tensión excesiva."
+  },
+  {
+    "id": "elevacion-cuello",
+    "nombre": "Elevación de cuello",
+    "nombre_ingles": "Neck Lift",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "aislamiento",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para fortalecer la parte frontal del cuello.",
+    "instrucciones": [
+      "Acostate boca arriba con las piernas flexionadas.",
+      "Coloca las manos sobre el frente de tu cabeza.",
+      "Levanta la cabeza hacia el pecho, manteniendo el movimiento lento y controlado."
+    ],
+    "consejos": [
+      "Realiza el ejercicio sin forzar el cuello.",
+      "Controla el movimiento y evita los tirones."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=7Qfjj7c4tEw",
+    "imagen": "https://example.com/images/elevacion-cuello.jpg",
+    "advertencias": "No levantes la cabeza de forma brusca, hazlo de manera controlada."
+  },
+  {
+    "id": "tiron-cuello",
+    "nombre": "Tiron de cuello con cuerda",
+    "nombre_ingles": "Neck Pull with Rope",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "aislamiento",
+    "equipo": ["cuerda de máquina de polea"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio de tracción para fortalecer el cuello.",
+    "instrucciones": [
+      "Coloca una cuerda en una máquina de polea a la altura de la cabeza.",
+      "Tira de la cuerda hacia abajo, manteniendo la cabeza estable.",
+      "Mantén la posición un segundo y regresa lentamente."
+    ],
+    "consejos": [
+      "Usa un peso moderado para evitar tensión innecesaria.",
+      "Mantén el movimiento controlado."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=ZvvBb7FzAfE",
+    "imagen": "https://example.com/images/tiron-cuello.jpg",
+    "advertencias": "Realiza el ejercicio sin movimientos bruscos para proteger el cuello."
+  },
+  {
+    "id": "estiramiento-cuello",
+    "nombre": "Estiramiento de cuello",
+    "nombre_ingles": "Neck Stretch",
+    "grupo_muscular": "cuello",
+    "musculos_secundarios": ["trapecios", "escápulas"],
+    "tipo": "estiramiento",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Estiramiento para mejorar la flexibilidad del cuello.",
+    "instrucciones": [
+      "Sentate o párate con la espalda recta.",
+      "Inclina la cabeza hacia un lado y usa tu mano para aumentar el estiramiento.",
+      "Mantén la posición durante 20-30 segundos y repite del otro lado."
+    ],
+    "consejos": [
+      "No fuerces el estiramiento, debe ser cómodo.",
+      "Realiza el estiramiento lentamente."
+    ],
+    "repeticiones_sugeridas": "3 repeticiones de 20-30 segundos por lado",
+    "url_video": "https://www.youtube.com/watch?v=xz_fh9pFqF4",
+    "imagen": "https://example.com/images/estiramiento-cuello.jpg",
+    "advertencias": "Evita estirar de manera brusca para prevenir lesiones."
+  }
+]

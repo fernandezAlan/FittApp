@@ -1,0 +1,219 @@
+[
+  {
+    "id": "peso-muerto",
+    "nombre": "Peso muerto",
+    "nombre_ingles": "Deadlift",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["glúteos", "piernas"],
+    "tipo": "compuesto",
+    "equipo": ["barra"],
+    "nivel": "avanzado",
+    "descripcion": "El peso muerto es uno de los mejores ejercicios para fortalecer la zona lumbar y la cadena posterior.",
+    "instrucciones": [
+      "Coloca los pies a la altura de los hombros con la barra frente a ti.",
+      "Flexiona las caderas y las rodillas, agarra la barra con un agarre ligeramente más ancho que los hombros.",
+      "Mantén la espalda recta mientras te levantas, llevando las caderas hacia adelante.",
+      "Vuelve a la posición inicial controlando el movimiento."
+    ],
+    "consejos": [
+      "Evita redondear la espalda baja para prevenir lesiones.",
+      "Utiliza un peso adecuado que puedas controlar."
+    ],
+    "repeticiones_sugeridas": "4 series de 6-8 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=op9kVnSso6Q",
+    "imagen": "https://example.com/images/peso-muerto.jpg",
+    "advertencias": "No utilices un peso excesivo que te haga perder la técnica."
+  },
+  {
+    "id": "hyperextension",
+    "nombre": "Hiperextensión",
+    "nombre_ingles": "Hyperextension",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["glúteos", "isquiotibiales"],
+    "tipo": "aislante",
+    "equipo": ["máquina de hiperextensión"],
+    "nivel": "principiante",
+    "descripcion": "Este ejercicio es excelente para trabajar la parte baja de la espalda, específicamente los músculos lumbares.",
+    "instrucciones": [
+      "Ajusta la máquina para que tus caderas estén alineadas con el banco.",
+      "Coloca los pies firmemente en la plataforma y cruza los brazos frente a ti.",
+      "Inclínate hacia adelante desde la cintura y luego regresa lentamente a la posición inicial, extendiendo la espalda baja."
+    ],
+    "consejos": [
+      "Evita curvar la espalda hacia atrás en exceso, mantén el movimiento controlado.",
+      "Realiza el ejercicio con un rango de movimiento adecuado."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=fh8N6zbfE_M",
+    "imagen": "https://example.com/images/hyperextension.jpg",
+    "advertencias": "No uses un rango de movimiento muy amplio que pueda causar tensión innecesaria."
+  },
+  {
+    "id": "good-morning",
+    "nombre": "Good morning",
+    "nombre_ingles": "Good Morning",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["glúteos", "piernas"],
+    "tipo": "aislante",
+    "equipo": ["barra"],
+    "nivel": "intermedio",
+    "descripcion": "El ejercicio Good Morning trabaja principalmente la zona lumbar, pero también involucra los glúteos y los isquiotibiales.",
+    "instrucciones": [
+      "Coloca una barra sobre tus hombros, de forma similar a un back squat.",
+      "Flexiona ligeramente las rodillas y luego inclina las caderas hacia adelante, bajando el torso.",
+      "Regresa a la posición inicial apretando los glúteos y extendiendo la espalda baja."
+    ],
+    "consejos": [
+      "Mantén la espalda recta en todo momento.",
+      "Comienza con poco peso hasta que domines la técnica."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=6EYO2KL4IQY",
+    "imagen": "https://example.com/images/good-morning.jpg",
+    "advertencias": "No sobrecargues el ejercicio, ya que esto puede generar tensión excesiva en la espalda baja."
+  },
+  {
+    "id": "superman",
+    "nombre": "Superman",
+    "nombre_ingles": "Superman",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["glúteos", "hombros"],
+    "tipo": "aislante",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "El ejercicio Superman es ideal para fortalecer la zona lumbar sin necesidad de equipo.",
+    "instrucciones": [
+      "Acuéstate boca abajo en el suelo con los brazos extendidos hacia adelante.",
+      "Levanta los brazos, pecho y piernas del suelo simultáneamente.",
+      "Mantén la posición por unos segundos y luego baja lentamente."
+    ],
+    "consejos": [
+      "Mantén el cuello alineado con la columna vertebral.",
+      "No uses impulso para levantar el cuerpo."
+    ],
+    "repeticiones_sugeridas": "4 series de 15-20 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=z6PJMT2y8GQ",
+    "imagen": "https://example.com/images/superman.jpg",
+    "advertencias": "Realiza el movimiento de manera controlada, evitando dolor en la espalda."
+  },
+  {
+    "id": "plancha-lateral",
+    "nombre": "Plancha lateral",
+    "nombre_ingles": "Side Plank",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["oblicuos", "glúteos"],
+    "tipo": "estático",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "La plancha lateral es un ejercicio que fortalece la zona lumbar y los músculos oblicuos.",
+    "instrucciones": [
+      "Acuéstate de lado y apoya el antebrazo en el suelo.",
+      "Levanta las caderas hasta formar una línea recta desde los pies hasta la cabeza.",
+      "Mantén la posición durante el tiempo recomendado."
+    ],
+    "consejos": [
+      "Mantén el cuerpo en línea recta, evitando que las caderas se hundan.",
+      "Respira profundamente y mantén la estabilidad."
+    ],
+    "repeticiones_sugeridas": "3 series de 30-45 segundos por lado",
+    "url_video": "https://www.youtube.com/watch?v=K4d-o3mhDSo",
+    "imagen": "https://example.com/images/plancha-lateral.jpg",
+    "advertencias": "Evita que tu hombro se desplace hacia adelante."
+  },
+  {
+    "id": "russian-twist",
+    "nombre": "Russian twist",
+    "nombre_ingles": "Russian Twist",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["oblicuos", "abdomen"],
+    "tipo": "aislante",
+    "equipo": ["ninguno"],
+    "nivel": "intermedio",
+    "descripcion": "El Russian twist trabaja los músculos oblicuos y también activa la zona lumbar.",
+    "instrucciones": [
+      "Siéntate en el suelo con las piernas ligeramente flexionadas.",
+      "Inclina ligeramente el torso hacia atrás manteniendo la espalda recta.",
+      "Gira el torso hacia la izquierda y luego hacia la derecha, manteniendo el control del movimiento."
+    ],
+    "consejos": [
+      "Mantén las piernas estables para evitar movimientos innecesarios.",
+      "Realiza el ejercicio con control, no con impulso."
+    ],
+    "repeticiones_sugeridas": "4 series de 20 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=wkD8rjkodUI",
+    "imagen": "https://example.com/images/russian-twist.jpg",
+    "advertencias": "No uses impulso para el movimiento, mantén el control."
+  },
+  {
+    "id": "bird-dog",
+    "nombre": "Bird dog",
+    "nombre_ingles": "Bird Dog",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["glúteos", "hombros"],
+    "tipo": "aislante",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "El Bird Dog es un ejercicio para fortalecer la zona lumbar y mejorar la estabilidad.",
+    "instrucciones": [
+      "Colócate en posición de cuadrupedia, con las manos alineadas con los hombros y las rodillas con las caderas.",
+      "Extiende el brazo derecho hacia adelante y la pierna izquierda hacia atrás.",
+      "Mantén la posición durante unos segundos y luego cambia de lado."
+    ],
+    "consejos": [
+      "Mantén el torso estable y evita movimientos de la cadera.",
+      "Concéntrate en la contracción de la zona lumbar."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=wiFNA3sqj5M",
+    "imagen": "https://example.com/images/bird-dog.jpg",
+    "advertencias": "Evita que la cadera se desplace hacia un lado."
+  },
+  {
+    "id": "puente-gluteos",
+    "nombre": "Puente de glúteos",
+    "nombre_ingles": "Glute Bridge",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["glúteos", "abdomen"],
+    "tipo": "aislante",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "El puente de glúteos trabaja la zona lumbar y los glúteos de forma efectiva.",
+    "instrucciones": [
+      "Acuéstate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo.",
+      "Levanta las caderas hacia el techo, apretando los glúteos y manteniendo la zona lumbar activa.",
+      "Baja lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "No dejes que las caderas caigan hacia el suelo durante el movimiento.",
+      "Asegúrate de que la parte baja de la espalda esté activada."
+    ],
+    "repeticiones_sugeridas": "4 series de 15-20 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=2Z9jOQ39ToM",
+    "imagen": "https://example.com/images/puente-gluteos.jpg",
+    "advertencias": "Mantén el movimiento controlado para evitar lesiones."
+  },
+  {
+    "id": "levantamiento-lateral-piernas",
+    "nombre": "Levantamiento lateral de piernas",
+    "nombre_ingles": "Side Leg Raise",
+    "grupo_muscular": "zona lumbar",
+    "musculos_secundarios": ["glúteos", "musculatura lateral del abdomen"],
+    "tipo": "aislante",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "El levantamiento lateral de piernas trabaja la zona lumbar y mejora la estabilidad.",
+    "instrucciones": [
+      "Acuéstate de lado, manteniendo una pierna extendida y la otra ligeramente flexionada.",
+      "Levanta la pierna extendida hacia arriba, manteniendo el torso estable.",
+      "Baja lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "No muevas el torso al levantar la pierna, mantén la alineación.",
+      "Mantén las piernas lo más rectas posible durante el movimiento."
+    ],
+    "repeticiones_sugeridas": "4 series de 15 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=QhK11TtA9Lo",
+    "imagen": "https://example.com/images/levantamiento-lateral-piernas.jpg",
+    "advertencias": "No fuerces la pierna más allá del rango de movimiento cómodo."
+  }
+]

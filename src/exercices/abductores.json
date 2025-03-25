@@ -1,0 +1,227 @@
+[
+  {
+    "id": "abduccion-cadera-maquina",
+    "nombre": "Abducción de cadera en máquina",
+    "nombre_ingles": "Hip Abduction Machine",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislamiento",
+    "equipo": ["máquina"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio en máquina para trabajar los músculos abductores de la cadera.",
+    "instrucciones": [
+      "Siéntate en la máquina con las piernas apoyadas en las almohadillas.",
+      "Ajusta el ancho inicial según tu flexibilidad.",
+      "Empuja las piernas hacia afuera controladamente.",
+      "Regresa lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "No uses impulso.",
+      "Mantén la espalda apoyada contra el respaldo."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=PHNZm6-f9tw",
+    "imagen": "https://example.com/images/abduccion-cadera-maquina.jpg",
+    "advertencias": "Evita arquear la espalda."
+  },
+  {
+    "id": "abduccion-cadera-banda",
+    "nombre": "Abducción de cadera con banda",
+    "nombre_ingles": "Banded Hip Abduction",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislamiento",
+    "equipo": ["banda de resistencia"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio con banda para fortalecer abductores y glúteos.",
+    "instrucciones": [
+      "Coloca la banda sobre las rodillas.",
+      "De pie, separa una pierna lateralmente sin mover el torso.",
+      "Regresa lentamente a la posición inicial.",
+      "Repite con la otra pierna."
+    ],
+    "consejos": [
+      "Mantén el abdomen activado.",
+      "Evita balancear el cuerpo."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=GJ2p80E7Tz4",
+    "imagen": "https://example.com/images/abduccion-cadera-banda.jpg",
+    "advertencias": "No gires la cadera al levantar la pierna."
+  },
+  {
+    "id": "abduccion-polea-baja",
+    "nombre": "Abducción de pie en polea baja",
+    "nombre_ingles": "Cable Standing Hip Abduction",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": ["glúteo medio"],
+    "tipo": "aislamiento",
+    "equipo": ["polea"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio para trabajar abductores usando polea con tobilleras.",
+    "instrucciones": [
+      "Coloca la tobillera en una pierna conectada a la polea baja.",
+      "De pie, separa la pierna lateralmente.",
+      "Regresa controladamente a la posición inicial.",
+      "Cambia de pierna."
+    ],
+    "consejos": [
+      "Sujétate con una mano para mantener el equilibrio.",
+      "Evita girar el torso."
+    ],
+    "repeticiones_sugeridas": "3 series de 12 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=SuE1jYJCEe8",
+    "imagen": "https://example.com/images/abduccion-polea.jpg",
+    "advertencias": "Evita usar demasiado peso."
+  },
+  {
+    "id": "side-lying-leg-raise",
+    "nombre": "Elevación lateral acostado",
+    "nombre_ingles": "Side-Lying Leg Raise",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["colchoneta"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio clásico en el suelo para activar los abductores.",
+    "instrucciones": [
+      "Acuéstate de lado con piernas estiradas.",
+      "Levanta la pierna superior sin girar la cadera.",
+      "Baja lentamente sin tocar la otra pierna.",
+      "Repite y cambia de lado."
+    ],
+    "consejos": [
+      "Mantén la pierna recta.",
+      "Evita subir demasiado para no compensar con la espalda."
+    ],
+    "repeticiones_sugeridas": "3 series de 15 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=ODUXsbdUfdE",
+    "imagen": "https://example.com/images/side-lying-leg-raise.jpg",
+    "advertencias": "No arquees la espalda."
+  },
+  {
+    "id": "clamshells",
+    "nombre": "Clamshells",
+    "nombre_ingles": "Clamshells",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": ["glúteo medio"],
+    "tipo": "aislamiento",
+    "equipo": ["banda de resistencia", "colchoneta"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para activar abductores y glúteos con movimiento rotacional.",
+    "instrucciones": [
+      "Acuéstate de lado con las rodillas flexionadas.",
+      "Coloca una banda sobre las rodillas.",
+      "Abre la rodilla superior sin mover la pelvis.",
+      "Regresa a la posición inicial y repite."
+    ],
+    "consejos": [
+      "Aprieta los glúteos al abrir.",
+      "Mantén los pies juntos durante el movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 15 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=J1a4rTX7Kxg",
+    "imagen": "https://example.com/images/clamshells.jpg",
+    "advertencias": "Evita abrir demasiado para no rotar la cadera."
+  },
+  {
+    "id": "monster-walks",
+    "nombre": "Monster Walks",
+    "nombre_ingles": "Monster Walks",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "funcional",
+    "equipo": ["banda de resistencia"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio funcional para fortalecer abductores en movimiento.",
+    "instrucciones": [
+      "Coloca la banda sobre las rodillas o tobillos.",
+      "Flexiona ligeramente las rodillas.",
+      "Camina hacia adelante y atrás manteniendo la tensión.",
+      "Mantén la postura estable durante el ejercicio."
+    ],
+    "consejos": [
+      "No juntes los pies al caminar.",
+      "Mantén la tensión de la banda todo el tiempo."
+    ],
+    "repeticiones_sugeridas": "3 rondas de 10 pasos hacia adelante y atrás",
+    "url_video": "https://www.youtube.com/watch?v=1YFbP_3TRhw",
+    "imagen": "https://example.com/images/monster-walks.jpg",
+    "advertencias": "Evita inclinar el torso hacia adelante."
+  },
+  {
+    "id": "step-outs-banda",
+    "nombre": "Step outs con banda",
+    "nombre_ingles": "Banded Step Outs",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": [],
+    "tipo": "funcional",
+    "equipo": ["banda de resistencia"],
+    "nivel": "principiante",
+    "descripcion": "Paso lateral para activar abductores con banda elástica.",
+    "instrucciones": [
+      "Coloca la banda sobre las rodillas.",
+      "Da un paso lateral y flexiona un poco las rodillas.",
+      "Junta la otra pierna sin perder tensión.",
+      "Repite hacia ambos lados."
+    ],
+    "consejos": [
+      "Mantén el abdomen firme.",
+      "Haz pasos controlados, no rápidos."
+    ],
+    "repeticiones_sugeridas": "3 series de 12 pasos por lado",
+    "url_video": "https://www.youtube.com/watch?v=jArfESWkl2g",
+    "imagen": "https://example.com/images/step-outs-banda.jpg",
+    "advertencias": "No levantes los pies del suelo."
+  },
+  {
+    "id": "patada-lateral-maquina",
+    "nombre": "Patada lateral en máquina",
+    "nombre_ingles": "Machine Lateral Kick",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": ["glúteo medio"],
+    "tipo": "aislamiento",
+    "equipo": ["máquina"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio para aislar abductores mediante patada lateral guiada por máquina.",
+    "instrucciones": [
+      "Ponte de pie en la máquina de patada lateral.",
+      "Apoya una pierna y empuja con la otra hacia un costado.",
+      "Controla el movimiento de vuelta.",
+      "Cambia de pierna."
+    ],
+    "consejos": [
+      "Mantén el tronco recto.",
+      "No uses impulso, solo fuerza muscular."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 por pierna",
+    "url_video": "https://www.youtube.com/watch?v=lii1xXdy2Lg",
+    "imagen": "https://example.com/images/patada-lateral-maquina.jpg",
+    "advertencias": "Evita girar la cadera."
+  },
+  {
+    "id": "abduccion-cuadrupedia",
+    "nombre": "Abducción en cuadrupedia",
+    "nombre_ingles": "Quadruped Hip Abduction",
+    "grupo_muscular": "abductores",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislamiento",
+    "equipo": ["colchoneta"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio en el suelo que trabaja los abductores con apoyo en cuatro puntos.",
+    "instrucciones": [
+      "Ponte en posición de cuadrupedia.",
+      "Levanta una pierna lateralmente manteniendo la rodilla flexionada.",
+      "Regresa con control y repite.",
+      "Cambia de pierna."
+    ],
+    "consejos": [
+      "Evita arquear la espalda.",
+      "Mantén la mirada al frente."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 por pierna",
+    "url_video": "https://www.youtube.com/watch?v=3FnbnXx1N1g",
+    "imagen": "https://example.com/images/abduccion-cuadrupedia.jpg",
+    "advertencias": "No rotes el tronco al levantar la pierna."
+  }
+]

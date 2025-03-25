@@ -1,0 +1,227 @@
+[
+  {
+    "id": "aductor-maquina-sentado",
+    "nombre": "Aductor en máquina sentado",
+    "nombre_ingles": "Seated Adduction Machine",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": ["glúteos", "cuádriceps"],
+    "tipo": "aislamiento",
+    "equipo": ["máquina de aductores"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para trabajar específicamente los músculos aductores del muslo.",
+    "instrucciones": [
+      "Siéntate en la máquina con las piernas abiertas sobre las almohadillas.",
+      "Sujeta las manijas laterales y mantén la espalda recta.",
+      "Junta las piernas controladamente contrayendo los aductores.",
+      "Regresa lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "Evita impulsarte con el torso.",
+      "Realiza el movimiento de forma lenta y controlada."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=3p8EBPVZ2Iw",
+    "imagen": "https://example.com/images/aductor-maquina-sentado.jpg",
+    "advertencias": "No abras las piernas bruscamente al volver a la posición inicial."
+  },
+  {
+    "id": "aductores-con-banda-elastica",
+    "nombre": "Aductores con banda elástica",
+    "nombre_ingles": "Resistance Band Adduction",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["banda elástica"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio de bajo impacto para trabajar aductores usando banda elástica.",
+    "instrucciones": [
+      "Ata una banda a un punto fijo a la altura del tobillo.",
+      "Coloca la banda en un tobillo y párate de lado al anclaje.",
+      "Cruza la pierna con banda hacia adentro, delante de la otra.",
+      "Regresa a la posición inicial lentamente."
+    ],
+    "consejos": [
+      "Controla el movimiento en ambas direcciones.",
+      "Mantén el tronco erguido y estable."
+    ],
+    "repeticiones_sugeridas": "3 series de 15 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=Y8u_B8H2g3A",
+    "imagen": "https://example.com/images/aductores-banda.jpg",
+    "advertencias": "Evita torcer el tronco."
+  },
+  {
+    "id": "desplante-lateral",
+    "nombre": "Desplante lateral",
+    "nombre_ingles": "Lateral Lunge",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": ["glúteos", "cuádriceps", "isquiotibiales"],
+    "tipo": "compuesto",
+    "equipo": ["ninguno"],
+    "nivel": "intermedio",
+    "descripcion": "Variación del desplante que activa los aductores al moverse lateralmente.",
+    "instrucciones": [
+      "Párate derecho con los pies juntos.",
+      "Da un paso largo hacia un lado, flexionando la rodilla y bajando la cadera.",
+      "Mantén la otra pierna extendida.",
+      "Empuja con la pierna flexionada para volver al centro."
+    ],
+    "consejos": [
+      "Mantén el pecho erguido.",
+      "Evita que la rodilla sobrepase los dedos del pie."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=rvqLVJkR9XM",
+    "imagen": "https://example.com/images/desplante-lateral.jpg",
+    "advertencias": "No dejar que el talón se levante del piso."
+  },
+  {
+    "id": "puente-con-pelota",
+    "nombre": "Puente con pelota entre rodillas",
+    "nombre_ingles": "Glute Bridge with Ball Squeeze",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": ["glúteos", "core"],
+    "tipo": "compuesto",
+    "equipo": ["colchoneta", "pelota pequeña"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio que combina puente de glúteos con contracción de aductores.",
+    "instrucciones": [
+      "Acuéstate boca arriba con las rodillas flexionadas y los pies apoyados.",
+      "Coloca una pelota entre las rodillas.",
+      "Eleva la cadera contrayendo glúteos y apretando la pelota.",
+      "Baja lentamente manteniendo la presión sobre la pelota."
+    ],
+    "consejos": [
+      "Aprieta la pelota durante todo el movimiento.",
+      "Mantén los abdominales contraídos."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=43SGkwI7TuU",
+    "imagen": "https://example.com/images/puente-pelota.jpg",
+    "advertencias": "No arquees la espalda al subir."
+  },
+  {
+    "id": "sumo-squat",
+    "nombre": "Sentadilla sumo",
+    "nombre_ingles": "Sumo Squat",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": ["glúteos", "cuádriceps", "core"],
+    "tipo": "compuesto",
+    "equipo": ["mancuerna", "barra opcional"],
+    "nivel": "intermedio",
+    "descripcion": "Sentadilla con piernas abiertas que enfatiza el trabajo de los aductores.",
+    "instrucciones": [
+      "Párate con los pies más anchos que los hombros y las puntas ligeramente hacia afuera.",
+      "Sujeta una mancuerna con ambas manos al frente o una barra sobre los hombros.",
+      "Baja en sentadilla manteniendo la espalda recta.",
+      "Sube contrayendo glúteos y aductores."
+    ],
+    "consejos": [
+      "Mantén las rodillas alineadas con los pies.",
+      "Evita inclinar el torso hacia adelante."
+    ],
+    "repeticiones_sugeridas": "3 series de 12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=9ZuXKqRbT9k",
+    "imagen": "https://example.com/images/sumo-squat.jpg",
+    "advertencias": "No encorves la espalda."
+  },
+  {
+    "id": "aductor-acostado",
+    "nombre": "Aductor acostado",
+    "nombre_ingles": "Side-Lying Leg Adduction",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["colchoneta"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio de piso para trabajar los aductores de forma aislada.",
+    "instrucciones": [
+      "Acuéstate de lado con la pierna inferior extendida y la superior cruzada al frente.",
+      "Eleva la pierna inferior contrayendo los aductores.",
+      "Baja lentamente sin tocar el suelo.",
+      "Repite con la otra pierna."
+    ],
+    "consejos": [
+      "Controla el movimiento, evita impulsarte.",
+      "Mantén la pierna superior estable."
+    ],
+    "repeticiones_sugeridas": "3 series de 15 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=G8l4JVxzE9k",
+    "imagen": "https://example.com/images/aductor-acostado.jpg",
+    "advertencias": "Evita girar la cadera durante el movimiento."
+  },
+  {
+    "id": "step-out-squat",
+    "nombre": "Sentadilla con paso lateral",
+    "nombre_ingles": "Step-Out Squat",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": ["glúteos", "cuádriceps"],
+    "tipo": "compuesto",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio que trabaja aductores al incluir movimiento lateral en una sentadilla.",
+    "instrucciones": [
+      "Párate con los pies juntos.",
+      "Da un paso lateral hacia la derecha y baja en sentadilla.",
+      "Regresa al centro y repite hacia el otro lado.",
+      "Alterna lados en cada repetición."
+    ],
+    "consejos": [
+      "Mantén el torso recto.",
+      "Evita que las rodillas se hundan hacia adentro."
+    ],
+    "repeticiones_sugeridas": "3 series de 12 repeticiones por lado",
+    "url_video": "https://www.youtube.com/watch?v=YdB1HMCldxQ",
+    "imagen": "https://example.com/images/sentadilla-paso-lateral.jpg",
+    "advertencias": "No encorves la espalda."
+  },
+  {
+    "id": "aductores-cable",
+    "nombre": "Aductores en polea baja",
+    "nombre_ingles": "Cable Hip Adduction",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["polea baja", "tobillera"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio de aislamiento para aductores usando polea baja.",
+    "instrucciones": [
+      "Coloca la tobillera y ata el cable al tobillo.",
+      "Párate de lado a la polea, con la pierna libre más alejada.",
+      "Cruza la pierna hacia adelante y adentro del cuerpo.",
+      "Regresa lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "Usa un peso moderado para mantener el control.",
+      "Evita inclinar el cuerpo hacia los lados."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=V9RdEK6uzUY",
+    "imagen": "https://example.com/images/aductores-polea.jpg",
+    "advertencias": "No sobreextiendas la cadera."
+  },
+  {
+    "id": "caminata-lateral-banda",
+    "nombre": "Caminata lateral con banda",
+    "nombre_ingles": "Lateral Band Walk",
+    "grupo_muscular": "aductores",
+    "musculos_secundarios": ["glúteos", "abductores"],
+    "tipo": "compuesto",
+    "equipo": ["banda elástica"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para trabajar abductores y aductores a través de pasos laterales con resistencia.",
+    "instrucciones": [
+      "Coloca la banda alrededor de los tobillos.",
+      "Flexiona ligeramente las rodillas y mantén una postura atlética.",
+      "Da pasos laterales manteniendo la tensión en la banda.",
+      "Realiza el movimiento en ambas direcciones."
+    ],
+    "consejos": [
+      "No juntes los pies completamente.",
+      "Mantén la tensión constante en la banda."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 pasos por lado",
+    "url_video": "https://www.youtube.com/watch?v=Z0o1uHvUpFU",
+    "imagen": "https://example.com/images/caminata-banda.jpg",
+    "advertencias": "No dejes que las rodillas colapsen hacia adentro."
+  }
+]

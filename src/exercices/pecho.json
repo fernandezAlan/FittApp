@@ -1,0 +1,223 @@
+[
+  {
+    "id": "press-banco-plano",
+    "nombre": "Press de banca plano",
+    "nombre_ingles": "Flat Bench Press",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["tríceps", "hombros"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "banco"],
+    "nivel": "intermedio",
+    "descripcion": "Este es uno de los ejercicios más efectivos para trabajar el pecho, especialmente la parte media.",
+    "instrucciones": [
+      "Acuéstate en el banco plano con los pies firmemente apoyados en el suelo.",
+      "Toma la barra con un agarre ligeramente más ancho que el ancho de los hombros.",
+      "Baja la barra hasta el pecho controlando el movimiento.",
+      "Empuja la barra hacia arriba hasta que tus brazos estén completamente extendidos."
+    ],
+    "consejos": [
+      "Mantén los codos en un ángulo de 45 grados para evitar estrés innecesario en los hombros.",
+      "No dejes que la barra rebote en tu pecho, mantén el control en todo momento."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=rT7DgCr-3pg",
+    "imagen": "https://example.com/images/press-banco-plano.jpg",
+    "advertencias": "Asegúrate de que el peso sea adecuado para evitar lesiones en los hombros."
+  },
+  {
+    "id": "press-banco-inclinado",
+    "nombre": "Press de banca inclinado",
+    "nombre_ingles": "Incline Bench Press",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["hombros", "tríceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "banco inclinado"],
+    "nivel": "intermedio",
+    "descripcion": "Este ejercicio se enfoca más en la parte superior del pecho al realizarse en un banco inclinado.",
+    "instrucciones": [
+      "Ajusta el banco a un ángulo de 30 a 45 grados.",
+      "Toma la barra con las manos ligeramente más anchas que el ancho de los hombros.",
+      "Baja la barra hasta la parte superior de tu pecho y luego empuja hacia arriba.",
+      "Mantén los pies firmes en el suelo y el torso estable."
+    ],
+    "consejos": [
+      "Evita que los hombros suban durante el movimiento.",
+      "Controla la barra durante todo el movimiento, tanto al bajar como al subir."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=8iPEnn-ltC8",
+    "imagen": "https://example.com/images/press-banco-inclinado.jpg",
+    "advertencias": "No utilices demasiado peso que comprometa tu forma."
+  },
+  {
+    "id": "press-banco-descendido",
+    "nombre": "Press de banca declinado",
+    "nombre_ingles": "Decline Bench Press",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["tríceps", "hombros"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "banco declinado"],
+    "nivel": "intermedio",
+    "descripcion": "El press de banca declinado se enfoca en la parte inferior del pecho y permite levantar más peso.",
+    "instrucciones": [
+      "Ajusta el banco a un ángulo declinado.",
+      "Toma la barra con las manos ligeramente más anchas que el ancho de los hombros.",
+      "Baja la barra hasta la parte inferior del pecho y luego empuja hacia arriba.",
+      "Mantén los pies firmemente en el banco o en el suelo."
+    ],
+    "consejos": [
+      "Asegúrate de no dejar que los codos se abran demasiado.",
+      "Controla la bajada de la barra para evitar lesiones."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=w1AHn9n9rPQ",
+    "imagen": "https://example.com/images/press-banco-descendido.jpg",
+    "advertencias": "Mantén el control de la barra en todo momento para evitar caídas."
+  },
+  {
+    "id": "flexiones",
+    "nombre": "Flexiones",
+    "nombre_ingles": "Push-ups",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["tríceps", "hombros"],
+    "tipo": "aislante",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Las flexiones son un excelente ejercicio de peso corporal para trabajar el pecho, especialmente para principiantes.",
+    "instrucciones": [
+      "Colócate en una posición de tabla, con las manos ligeramente más anchas que el ancho de los hombros.",
+      "Baja el cuerpo hasta que el pecho casi toque el suelo.",
+      "Empuja hacia arriba hasta extender completamente los brazos."
+    ],
+    "consejos": [
+      "Mantén el core apretado durante todo el movimiento.",
+      "No dejes que la cadera caiga o se eleve."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=IODxDxX7oi4",
+    "imagen": "https://example.com/images/flexiones.jpg",
+    "advertencias": "Asegúrate de mantener una postura recta para evitar tensión en la espalda baja."
+  },
+  {
+    "id": "press-mancuernas-plano",
+    "nombre": "Press de mancuerna plano",
+    "nombre_ingles": "Dumbbell Flat Press",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["tríceps", "hombros"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas", "banco plano"],
+    "nivel": "intermedio",
+    "descripcion": "El press de mancuerna plano trabaja todo el pecho con un rango de movimiento más libre que el press de barra.",
+    "instrucciones": [
+      "Acostado en un banco plano, sujeta una mancuerna en cada mano.",
+      "Empuja las mancuernas hacia arriba hasta que los brazos estén completamente extendidos.",
+      "Baja las mancuernas hacia el pecho, manteniendo los codos a 45 grados."
+    ],
+    "consejos": [
+      "Controla el peso en todo momento para evitar lesiones.",
+      "Mantén el core firme durante el ejercicio."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=vmNn61ChqRU",
+    "imagen": "https://example.com/images/press-mancuernas-plano.jpg",
+    "advertencias": "No utilices un peso que te impida mantener una técnica adecuada."
+  },
+  {
+    "id": "aperturas-mancuernas-plano",
+    "nombre": "Aperturas de mancuerna en banco plano",
+    "nombre_ingles": "Dumbbell Chest Fly",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["hombros"],
+    "tipo": "aislante",
+    "equipo": ["mancuernas", "banco plano"],
+    "nivel": "intermedio",
+    "descripcion": "Las aperturas de mancuerna trabajan el pecho con un enfoque en la parte externa del mismo.",
+    "instrucciones": [
+      "Acuéstate en un banco plano con una mancuerna en cada mano.",
+      "Extiende los brazos hacia arriba, manteniendo una ligera flexión en los codos.",
+      "Abre los brazos hacia los lados, bajando las mancuernas hasta que los codos estén a la altura del pecho.",
+      "Vuelve a juntar las mancuernas, concentrándote en apretar el pecho al final del movimiento."
+    ],
+    "consejos": [
+      "Evita un movimiento brusco, controla las mancuernas durante todo el ejercicio.",
+      "Mantén los codos ligeramente doblados para proteger las articulaciones."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=eozdVDA78K0",
+    "imagen": "https://example.com/images/aperturas-mancuernas-plano.jpg",
+    "advertencias": "No dejes que las mancuernas bajen demasiado, mantén el control en todo momento."
+  },
+  {
+    "id": "fondos",
+    "nombre": "Fondos de pecho",
+    "nombre_ingles": "Chest Dips",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["tríceps", "hombros"],
+    "tipo": "compuesto",
+    "equipo": ["barras paralelas"],
+    "nivel": "intermedio",
+    "descripcion": "Los fondos son efectivos para trabajar el pecho inferior al inclinarse hacia adelante durante el movimiento.",
+    "instrucciones": [
+      "Colócate entre las barras paralelas y agárralas con las manos.",
+      "Baja el cuerpo hacia abajo doblando los codos, manteniendo el torso inclinado hacia adelante.",
+      "Cuando los codos estén a 90 grados, empuja el cuerpo hacia arriba hasta extender los brazos."
+    ],
+    "consejos": [
+      "Mantén las piernas rectas o dobladas para mayor estabilidad.",
+      "No sobrecargues el peso, ya que el movimiento requiere control."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=2z8Jm2jQ3Qk",
+    "imagen": "https://example.com/images/fondos.jpg",
+    "advertencias": "No dejes que los hombros suban al hacer el ejercicio."
+  },
+  {
+    "id": "aperturas-cables",
+    "nombre": "Aperturas de pecho en máquina de cables",
+    "nombre_ingles": "Cable Chest Fly",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["hombros"],
+    "tipo": "aislante",
+    "equipo": ["máquina de cables"],
+    "nivel": "intermedio",
+    "descripcion": "Las aperturas en cable permiten un movimiento más fluido y controlado, enfocándose en la parte interna y externa del pecho.",
+    "instrucciones": [
+      "Ajusta las poleas en la máquina a la altura de los hombros.",
+      "Sujeta las manijas de las poleas y da un paso hacia adelante.",
+      "Con los brazos ligeramente doblados, junta las manijas frente a ti.",
+      "Controla el movimiento durante la apertura y el cierre."
+    ],
+    "consejos": [
+      "Mantén la postura recta y los pies firmes.",
+      "Realiza el movimiento lentamente para maximizar la activación del músculo."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=V6D40oXGzF8",
+    "imagen": "https://example.com/images/aperturas-cables.jpg",
+    "advertencias": "No dejes que la carga te haga perder el control en el movimiento."
+  },
+  {
+    "id": "pullover",
+    "nombre": "Pullover con mancuerna",
+    "nombre_ingles": "Dumbbell Pullover",
+    "grupo_muscular": "pecho",
+    "musculos_secundarios": ["dorsales", "tríceps"],
+    "tipo": "aislante",
+    "equipo": ["mancuerna", "banco"],
+    "nivel": "intermedio",
+    "descripcion": "El pullover es un gran ejercicio para trabajar el pecho y los músculos de la parte superior de la espalda.",
+    "instrucciones": [
+      "Acuéstate en un banco, con la espalda sobre él y sosteniendo una mancuerna con ambas manos.",
+      "Baja la mancuerna detrás de la cabeza con los brazos extendidos, sintiendo el estiramiento en el pecho.",
+      "Regresa la mancuerna hacia arriba, controlando el movimiento."
+    ],
+    "consejos": [
+      "Mantén los codos ligeramente doblados durante todo el ejercicio.",
+      "Evita usar un peso demasiado alto, ya que esto podría comprometer la forma."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=AVg54VLk9oI",
+    "imagen": "https://example.com/images/pullover.jpg",
+    "advertencias": "Mantén el control en todo momento para evitar cualquier movimiento brusco."
+  }
+]

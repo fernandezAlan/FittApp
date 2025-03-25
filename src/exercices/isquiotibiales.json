@@ -1,0 +1,197 @@
+[
+  {
+    "id": "peso-muerto",
+    "nombre": "Peso muerto",
+    "nombre_ingles": "Deadlift",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos", "lumbar"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "avanzado",
+    "descripcion": "Uno de los mejores ejercicios compuestos para trabajar los isquiotibiales, glúteos y la parte baja de la espalda.",
+    "instrucciones": [
+      "Coloca la barra sobre el suelo, a la altura de tus tobillos.",
+      "Párate con los pies al ancho de los hombros y la barra frente a ti.",
+      "Mantén la espalda recta, agáchate y agarra la barra con las manos a la altura de los hombros.",
+      "Levanta la barra, extendiendo las caderas y las rodillas simultáneamente, manteniendo la espalda recta en todo momento.",
+      "Baja la barra de manera controlada hasta el suelo y repite."
+    ],
+    "consejos": [
+      "No arquees la espalda baja durante el levantamiento.",
+      "Asegúrate de mantener las caderas alineadas con los hombros."
+    ],
+    "repeticiones_sugeridas": "4 series de 6-8 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=op9kVnSso6Q",
+    "imagen": "https://example.com/images/peso-muerto.jpg",
+    "advertencias": "Evita un levantamiento demasiado rápido o con impulso."
+  },
+  {
+    "id": "curl-femorales",
+    "nombre": "Curl femoral",
+    "nombre_ingles": "Leg Curl",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["máquina de curl femoral"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio de aislamiento que trabaja directamente los isquiotibiales, especialmente la parte posterior de las piernas.",
+    "instrucciones": [
+      "Acuéstate en la máquina de curl femoral, con las piernas estiradas y las almohadillas justo sobre tus tobillos.",
+      "Flexiona las rodillas para llevar las almohadillas hacia tus glúteos.",
+      "Baja las piernas lentamente para estirarlas completamente, manteniendo el control del movimiento."
+    ],
+    "consejos": [
+      "Mantén el torso pegado al banco para evitar el balanceo.",
+      "Realiza el movimiento de manera controlada para maximizar la contracción de los isquiotibiales."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=1Tq3QdYUuHs",
+    "imagen": "https://example.com/images/curl-femorales.jpg",
+    "advertencias": "No dejes que las rodillas se flexionen más allá de lo natural."
+  },
+  {
+    "id": "hip-thrust",
+    "nombre": "Hip Thrust",
+    "nombre_ingles": "Hip Thrust",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos", "cuádriceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "banco"],
+    "nivel": "intermedio",
+    "descripcion": "El hip thrust se centra en los glúteos, pero también trabaja los isquiotibiales al involucrar la extensión de caderas.",
+    "instrucciones": [
+      "Sienta la parte superior de la espalda en un banco y coloca la barra sobre las caderas.",
+      "Flexiona las rodillas y coloca los pies firmemente en el suelo.",
+      "Empuja las caderas hacia arriba, apretando los glúteos y los isquiotibiales.",
+      "Baja las caderas lentamente y repite."
+    ],
+    "consejos": [
+      "Evita que las costillas se eleven al subir las caderas.",
+      "Asegúrate de apretar los glúteos y los isquiotibiales al final del movimiento."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=LM8XHLYJoYs",
+    "imagen": "https://example.com/images/hip-thrust.jpg",
+    "advertencias": "No arquees la espalda baja durante el movimiento."
+  },
+  {
+    "id": "sentadillas",
+    "nombre": "Sentadillas",
+    "nombre_ingles": "Squats",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos", "cuádriceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "principiante",
+    "descripcion": "Las sentadillas trabajan principalmente los cuádriceps, pero también activan los isquiotibiales durante el movimiento.",
+    "instrucciones": [
+      "Párate con los pies al ancho de los hombros y la barra sobre los hombros.",
+      "Baja el cuerpo flexionando las rodillas, asegurándote de que las rodillas no pasen los dedos de los pies.",
+      "Llega a un ángulo de 90 grados en las rodillas y luego regresa a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén la espalda recta y el core apretado durante todo el movimiento.",
+      "No permitas que tus rodillas se desvíen hacia adentro."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=aclHkVaku9U",
+    "imagen": "https://example.com/images/sentadillas.jpg",
+    "advertencias": "Asegúrate de no redondear la espalda baja al descender."
+  },
+  {
+    "id": "curl-pierna-de-pie",
+    "nombre": "Curl de pierna de pie",
+    "nombre_ingles": "Standing Leg Curl",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["máquina de curl de pierna de pie"],
+    "nivel": "principiante",
+    "descripcion": "Este ejercicio de aislamiento trabaja específicamente los isquiotibiales, especialmente la parte inferior de las piernas.",
+    "instrucciones": [
+      "Colócate de pie en la máquina de curl, con un tobillo sujeto al agarre.",
+      "Flexiona la rodilla, llevando el talón hacia los glúteos.",
+      "Controla el movimiento al regresar a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén el torso erguido para evitar usar el impulso.",
+      "Realiza el movimiento de manera lenta y controlada."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=4e6mlkWzA_I",
+    "imagen": "https://example.com/images/curl-pierna-de-pie.jpg",
+    "advertencias": "Evita balancearte durante el movimiento."
+  },
+  {
+    "id": "glute-ham-raise",
+    "nombre": "Glute Ham Raise",
+    "nombre_ingles": "Glute Ham Raise",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["máquina de glute-ham raise"],
+    "nivel": "avanzado",
+    "descripcion": "Ejercicio de aislamiento que activa fuertemente los isquiotibiales y los glúteos.",
+    "instrucciones": [
+      "Colócate en la máquina de glute-ham raise, asegurando que las piernas estén bien sujetas.",
+      "Desde la posición inicial, flexiona las rodillas y baja el torso hacia el suelo.",
+      "Usa los isquiotibiales para levantar el torso de nuevo a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén el control en todo momento para maximizar la activación muscular.",
+      "No uses impulso para levantarte, todo el movimiento debe ser controlado."
+    ],
+    "repeticiones_sugeridas": "3 series de 6-8 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=pOX72X8z0I4",
+    "imagen": "https://example.com/images/glute-ham-raise.jpg",
+    "advertencias": "Realiza el movimiento de forma controlada y evita cualquier balanceo."
+  },
+  {
+    "id": "elevacion-de-cadera",
+    "nombre": "Elevación de cadera con una pierna",
+    "nombre_ingles": "Single Leg Hip Thrust",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["banco"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio similar al hip thrust, pero realizado con una sola pierna para mayor enfoque en los isquiotibiales.",
+    "instrucciones": [
+      "Acuéstate en el suelo con los hombros sobre un banco y una pierna flexionada sobre el suelo.",
+      "Levanta la cadera mientras mantienes la pierna extendida, apretando los glúteos y los isquiotibiales.",
+      "Baja lentamente y repite."
+    ],
+    "consejos": [
+      "Mantén el abdomen contraído durante el movimiento.",
+      "No dejes que la cadera se caiga hacia un lado."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=1A6DApE7lS4",
+    "imagen": "https://example.com/images/elevacion-de-cadera.jpg",
+    "advertencias": "Asegúrate de no arquear la espalda baja durante el levantamiento."
+  },
+  {
+    "id": "step-up",
+    "nombre": "Step-up",
+    "nombre_ingles": "Step-up",
+    "grupo_muscular": "isquiotibiales",
+    "musculos_secundarios": ["glúteos", "cuádriceps"],
+    "tipo": "funcional",
+    "equipo": ["banco o plataforma"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio funcional que trabaja los isquiotibiales al subir y bajar de una plataforma.",
+    "instrucciones": [
+      "Colócate frente a un banco o plataforma.",
+      "Sube un pie al banco y lleva el cuerpo hacia arriba.",
+      "Baja lentamente la pierna y repite con la otra pierna."
+    ],
+    "consejos": [
+      "Mantén el torso erguido y el abdomen contraído.",
+      "Evita impulsarte con el pie de atrás."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=dQqApCGd5Ss",
+    "imagen": "https://example.com/images/step-up.jpg",
+    "advertencias": "Realiza el movimiento de forma controlada."
+  }
+]

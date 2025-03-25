@@ -1,0 +1,194 @@
+[
+  {
+    "id": "sentadillas",
+    "nombre": "Sentadillas",
+    "nombre_ingles": "Squats",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["piernas", "cuádriceps", "isquiotibiales"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "principiante",
+    "descripcion": "Uno de los ejercicios más efectivos para desarrollar los glúteos, trabajando también las piernas.",
+    "instrucciones": [
+      "Párate con los pies a la altura de los hombros y la barra sobre los hombros.",
+      "Flexiona las rodillas y baja el cuerpo, manteniendo la espalda recta.",
+      "Detén el movimiento cuando los muslos estén paralelos al suelo, luego regresa a la posición inicial."
+    ],
+    "consejos": [
+      "No dejes que las rodillas se desplacen hacia adentro.",
+      "Mantén el torso erguido durante todo el movimiento."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=aclHkVaku9U",
+    "imagen": "https://example.com/images/sentadillas.jpg",
+    "advertencias": "Asegúrate de no redondear la espalda al bajar."
+  },
+  {
+    "id": "hip-thrust",
+    "nombre": "Hip Thrust",
+    "nombre_ingles": "Hip Thrust",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["cuádriceps", "isquiotibiales"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "banco"],
+    "nivel": "intermedio",
+    "descripcion": "El hip thrust es uno de los ejercicios más populares para aislar los glúteos y trabajar la parte superior de los mismos.",
+    "instrucciones": [
+      "Apoya la parte superior de la espalda en un banco y coloca la barra sobre tus caderas.",
+      "Coloca los pies a la altura de las caderas, con las rodillas flexionadas.",
+      "Eleva las caderas hacia arriba, apretando los glúteos al final del movimiento, luego baja lentamente."
+    ],
+    "consejos": [
+      "Mantén la espalda recta y evita que las costillas se eleven al levantar la cadera.",
+      "Asegúrate de apretar los glúteos al llegar arriba."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=LM8XHLYJoYs",
+    "imagen": "https://example.com/images/hip-thrust.jpg",
+    "advertencias": "No arquees demasiado la espalda baja durante el ejercicio."
+  },
+  {
+    "id": "zancadas",
+    "nombre": "Zancadas",
+    "nombre_ingles": "Lunges",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["piernas", "cuádriceps", "isquiotibiales"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas o barra"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio funcional que trabaja los glúteos, cuádriceps y isquiotibiales.",
+    "instrucciones": [
+      "Párate con los pies a la altura de los hombros y las mancuernas a los lados.",
+      "Da un paso largo hacia adelante y baja la rodilla trasera hacia el suelo.",
+      "Empuja hacia atrás para regresar a la posición inicial y repite con la pierna contraria."
+    ],
+    "consejos": [
+      "Mantén el torso erguido y la rodilla delantera alineada con el tobillo.",
+      "No dejes que la rodilla trasera toque el suelo."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=QOVaHwm-Q6U",
+    "imagen": "https://example.com/images/zancadas.jpg",
+    "advertencias": "Evita que la rodilla de la pierna delantera se desplace hacia adentro."
+  },
+  {
+    "id": "sentadillas-bulgarias",
+    "nombre": "Sentadillas búlgaras",
+    "nombre_ingles": "Bulgarian Split Squat",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["cuádriceps", "isquiotibiales"],
+    "tipo": "compuesto",
+    "equipo": ["banco", "mancuernas o barra"],
+    "nivel": "intermedio",
+    "descripcion": "Sentadilla unilateral que pone un enfoque especial en los glúteos y piernas.",
+    "instrucciones": [
+      "Coloca una pierna sobre un banco detrás de ti, con la rodilla alineada con la cadera.",
+      "Flexiona la pierna delantera y baja el cuerpo hasta que la rodilla trasera toque casi el suelo.",
+      "Empuja con el talón de la pierna delantera para regresar a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén el torso erguido y no dejes que la rodilla delantera se desplace hacia adelante.",
+      "Asegúrate de controlar el movimiento durante todo el ejercicio."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=2C-uNgKwPLE",
+    "imagen": "https://example.com/images/sentadillas-bulgarias.jpg",
+    "advertencias": "Evita que la rodilla de la pierna delantera sobrepase los dedos del pie."
+  },
+  {
+    "id": "kickback",
+    "nombre": "Kickback de glúteo",
+    "nombre_ingles": "Glute Kickback",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["isquiotibiales"],
+    "tipo": "aislante",
+    "equipo": ["máquina de glúteos o tobilleras"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio aislante para trabajar específicamente los glúteos.",
+    "instrucciones": [
+      "Colócate en la máquina de glúteos o pon las tobilleras.",
+      "Patea una pierna hacia atrás, asegurándote de apretar los glúteos al final del movimiento.",
+      "Baja la pierna controladamente y repite."
+    ],
+    "consejos": [
+      "No uses impulso para realizar el movimiento, debe ser controlado.",
+      "Mantén la pelvis estable durante el ejercicio."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=5sLacB7QsCU",
+    "imagen": "https://example.com/images/kickback.jpg",
+    "advertencias": "Evita arquear la espalda baja durante el movimiento."
+  },
+  {
+    "id": "sentadilla-sumo",
+    "nombre": "Sentadilla sumo",
+    "nombre_ingles": "Sumo Squat",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["aductores", "cuádriceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "mancuernas o kettlebell"],
+    "nivel": "principiante",
+    "descripcion": "Sentadilla de piernas abiertas que pone énfasis en los glúteos y aductores.",
+    "instrucciones": [
+      "Párate con las piernas más anchas que los hombros y los pies apuntando hacia afuera.",
+      "Flexiona las rodillas y baja el cuerpo, asegurándote de que las rodillas estén alineadas con los pies.",
+      "Vuelve a la posición inicial apretando los glúteos al final del movimiento."
+    ],
+    "consejos": [
+      "Mantén el torso erguido y la espalda recta.",
+      "No dejes que las rodillas se desplacen hacia adentro."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=IIsJkdxsvt0",
+    "imagen": "https://example.com/images/sentadilla-sumo.jpg",
+    "advertencias": "Asegúrate de que tus rodillas no sobrepasen los dedos de los pies."
+  },
+  {
+    "id": "glute-bridge",
+    "nombre": "Puente de glúteos",
+    "nombre_ingles": "Glute Bridge",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["cuádriceps", "isquiotibiales"],
+    "tipo": "aislante",
+    "equipo": ["ninguno o barra con peso"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio efectivo para trabajar los glúteos de manera aislada.",
+    "instrucciones": [
+      "Acuéstate de espaldas con las rodillas flexionadas y los pies apoyados en el suelo.",
+      "Eleva las caderas hacia arriba, apretando los glúteos al final del movimiento.",
+      "Baja las caderas lentamente y repite."
+    ],
+    "consejos": [
+      "No dejes que las rodillas se desplacen hacia adentro.",
+      "Siente cómo los glúteos trabajan durante todo el movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=mrjZ2lFOVHk",
+    "imagen": "https://example.com/images/glute-bridge.jpg",
+    "advertencias": "Evita que el arco lumbar se agrande excesivamente."
+  },
+  {
+    "id": "sentadillas-jump",
+    "nombre": "Sentadillas con salto",
+    "nombre_ingles": "Jump Squats",
+    "grupo_muscular": "glúteos",
+    "musculos_secundarios": ["piernas", "cuádriceps"],
+    "tipo": "funcional",
+    "equipo": ["ninguno"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio pliométrico que trabaja los glúteos y piernas a la vez que mejora la explosividad.",
+    "instrucciones": [
+      "Párate con los pies a la altura de los hombros.",
+      "Realiza una sentadilla normal, pero al llegar abajo, salta hacia arriba.",
+      "Aterriza suavemente y repite el movimiento."
+    ],
+    "consejos": [
+      "Mantén el abdomen contraído durante el salto.",
+      "Asegúrate de aterrizar suavemente para evitar lesiones."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=3X8-NzJG2d4",
+    "imagen": "https://example.com/images/sentadillas-jump.jpg",
+    "advertencias": "Realiza un salto controlado y evita caer bruscamente."
+  }
+]

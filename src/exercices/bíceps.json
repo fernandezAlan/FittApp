@@ -1,0 +1,218 @@
+[
+  {
+    "id": "curl-barra",
+    "nombre": "Curl con barra",
+    "nombre_ingles": "Barbell Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["barra"],
+    "nivel": "principiante",
+    "descripcion": "Es el ejercicio básico para trabajar los bíceps.",
+    "instrucciones": [
+      "Sostené la barra con un agarre prono (palmas hacia arriba) a la altura de los hombros.",
+      "Flexioná los codos sin mover la espalda, llevando la barra hacia el pecho.",
+      "Bajá lentamente a la posición inicial controlando el movimiento."
+    ],
+    "consejos": [
+      "No uses impulso con el torso.",
+      "Mantén los codos pegados al cuerpo."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=KWb1Dqz1YNM",
+    "imagen": "https://example.com/images/curl-barra.jpg",
+    "advertencias": "No te balancees ni uses demasiado peso."
+  },
+  {
+    "id": "curl-mancuernas",
+    "nombre": "Curl con mancuernas",
+    "nombre_ingles": "Dumbbell Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["mancuernas"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para trabajar los bíceps con mancuernas de forma controlada.",
+    "instrucciones": [
+      "Sostené una mancuerna en cada mano con las palmas hacia arriba.",
+      "Flexioná los codos llevando las mancuernas hacia los hombros.",
+      "Bajá lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "No uses impulso.",
+      "Mantén los codos inmóviles."
+    ],
+    "repeticiones_sugeridas": "3 series de 12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=sAq_ocpRh_I",
+    "imagen": "https://example.com/images/curl-mancuernas.jpg",
+    "advertencias": "Evita usar pesos demasiado pesados al principio."
+  },
+  {
+    "id": "curl-inverso",
+    "nombre": "Curl inverso",
+    "nombre_ingles": "Reverse Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": ["antebrazo"],
+    "tipo": "aislamiento",
+    "equipo": ["barra o mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Trabaja el braquiorradial y los músculos del antebrazo.",
+    "instrucciones": [
+      "Sostené la barra o mancuernas con un agarre prono (palmas hacia abajo).",
+      "Flexioná los codos para llevar las pesas hacia los hombros.",
+      "Bajá controlando el movimiento."
+    ],
+    "consejos": [
+      "No muevas los hombros, solo los codos.",
+      "Realizá el movimiento con control."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=YdK2qd1pRE0",
+    "imagen": "https://example.com/images/curl-inverso.jpg",
+    "advertencias": "No uses demasiado peso si no controlas bien el movimiento."
+  },
+  {
+    "id": "curl-martillo",
+    "nombre": "Curl martillo",
+    "nombre_ingles": "Hammer Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": ["braquial", "antebrazo"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio que trabaja el braquiorradial y los bíceps de manera unilateral.",
+    "instrucciones": [
+      "Sostené las mancuernas con un agarre neutro (palmas hacia adentro).",
+      "Flexioná los codos llevando las mancuernas hacia los hombros.",
+      "Bajá las mancuernas lentamente."
+    ],
+    "consejos": [
+      "Evita balancear el cuerpo.",
+      "Controla todo el movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=zC3nLlEvin4",
+    "imagen": "https://example.com/images/curl-martillo.jpg",
+    "advertencias": "No uses demasiado peso si eres principiante."
+  },
+  {
+    "id": "curl-con-banda-elastica",
+    "nombre": "Curl con banda elástica",
+    "nombre_ingles": "Resistance Band Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["banda elástica"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio para trabajar los bíceps con bandas elásticas.",
+    "instrucciones": [
+      "Pisa la banda elástica con ambos pies y sostené los extremos con las manos.",
+      "Flexioná los codos para llevar las manos hacia los hombros.",
+      "Bajá controlando el movimiento."
+    ],
+    "consejos": [
+      "Ajustá la resistencia de la banda según tu nivel.",
+      "Evita moverte con el torso."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=4cR0vqu8lzQ",
+    "imagen": "https://example.com/images/curl-banda-elastica.jpg",
+    "advertencias": "No uses bandas demasiado resistentes al principio."
+  },
+  {
+    "id": "curl-en-banco-inclinado",
+    "nombre": "Curl en banco inclinado",
+    "nombre_ingles": "Incline Dumbbell Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["banco inclinado", "mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio que aísla los bíceps al realizarlo en banco inclinado.",
+    "instrucciones": [
+      "Acomódate en un banco inclinado con las mancuernas en las manos.",
+      "Deja que los brazos cuelguen completamente.",
+      "Flexioná los codos y lleva las mancuernas hacia los hombros."
+    ],
+    "consejos": [
+      "No uses impulso, solo el movimiento de los bíceps.",
+      "Evita que el banco esté demasiado inclinado."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=ZZZ_7usqkmE",
+    "imagen": "https://example.com/images/curl-banco-inclinado.jpg",
+    "advertencias": "Mantén el control durante el movimiento."
+  },
+  {
+    "id": "curl-con-polea",
+    "nombre": "Curl con polea baja",
+    "nombre_ingles": "Cable Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["polea"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio que trabaja los bíceps utilizando una polea.",
+    "instrucciones": [
+      "Sostené la cuerda o barra de la polea baja con un agarre supino.",
+      "Flexioná los codos para llevar la cuerda hacia los hombros.",
+      "Bajá lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "Mantené los codos cerca del torso.",
+      "No uses impulso."
+    ],
+    "repeticiones_sugeridas": "3 series de 12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=f_fODOTlLZo",
+    "imagen": "https://example.com/images/curl-polea-baja.jpg",
+    "advertencias": "Asegúrate de mantener una postura correcta."
+  },
+  {
+    "id": "curl-zottman",
+    "nombre": "Curl Zottman",
+    "nombre_ingles": "Zottman Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": ["antebrazo"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas"],
+    "nivel": "avanzado",
+    "descripcion": "Curl combinado con rotación de muñeca, trabaja tanto el bíceps como el antebrazo.",
+    "instrucciones": [
+      "Sostené las mancuernas con un agarre supino.",
+      "Flexioná los codos para llevar las mancuernas hacia los hombros.",
+      "En la parte superior, rota las muñecas para que las palmas queden hacia abajo, y baja las mancuernas controlando el movimiento."
+    ],
+    "consejos": [
+      "Usá un peso moderado para controlar la rotación.",
+      "No uses impulso."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=nk9lfdYUsAs",
+    "imagen": "https://example.com/images/curl-zottman.jpg",
+    "advertencias": "No fuerces la rotación."
+  },
+  {
+    "id": "curl-con-soga",
+    "nombre": "Curl con soga en polea",
+    "nombre_ingles": "Cable Rope Curl",
+    "grupo_muscular": "bíceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["polea", "soga"],
+    "nivel": "intermedio",
+    "descripcion": "Usa una cuerda en la polea para realizar el curl de bíceps.",
+    "instrucciones": [
+      "Agarra la cuerda con ambas manos y mantené los codos pegados al torso.",
+      "Flexioná los codos y lleva la cuerda hacia el rostro.",
+      "Bajá lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén los codos firmes y cerca del cuerpo.",
+      "Evita balancear el torso."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=R6M0b6mua1w",
+    "imagen": "https://example.com/images/curl-con-soga.jpg",
+    "advertencias": "Asegúrate de no usar peso excesivo."
+  }
+]

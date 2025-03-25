@@ -1,0 +1,194 @@
+[
+  {
+    "id": "gemelos-de-pie",
+    "nombre": "Elevación de gemelos de pie",
+    "nombre_ingles": "Standing Calf Raise",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["máquina de elevación de gemelos"],
+    "nivel": "principiante",
+    "descripcion": "Este ejercicio trabaja los músculos de las pantorrillas al hacer que te eleves sobre las puntas de los pies.",
+    "instrucciones": [
+      "Colócate en la máquina de elevación de gemelos con los hombros debajo de las almohadillas y los pies sobre la plataforma.",
+      "Con una ligera flexión de rodillas, eleva los talones tanto como puedas, concentrándote en apretar los gemelos al final del movimiento.",
+      "Baja lentamente hasta que tus talones estén por debajo de la plataforma para un estiramiento completo."
+    ],
+    "consejos": [
+      "Realiza el movimiento de forma controlada tanto al subir como al bajar.",
+      "Mantén las rodillas ligeramente flexionadas para evitar tensión innecesaria."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=YMmgqO8Jo-k",
+    "imagen": "https://example.com/images/gemelos-de-pie.jpg",
+    "advertencias": "No dejes que tus talones toquen el suelo al bajar, para mantener la tensión constante."
+  },
+  {
+    "id": "gemelos-sentado",
+    "nombre": "Elevación de gemelos sentado",
+    "nombre_ingles": "Seated Calf Raise",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["máquina de gemelos sentado"],
+    "nivel": "principiante",
+    "descripcion": "Este ejercicio se enfoca en trabajar la parte baja de las pantorrillas, donde la flexión de la rodilla aísla aún más los músculos.",
+    "instrucciones": [
+      "Siéntate en la máquina de gemelos sentado, coloca los pies sobre la plataforma y ajusta las almohadillas sobre los muslos.",
+      "Eleva los talones lo más alto posible, apretando los gemelos al final del movimiento.",
+      "Baja los talones lentamente hasta que sientas un buen estiramiento en los músculos."
+    ],
+    "consejos": [
+      "Mantén la espalda recta y el abdomen apretado durante el ejercicio.",
+      "Evita mover las piernas; el movimiento debe concentrarse solo en los gemelos."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=I1_fN1p2A44",
+    "imagen": "https://example.com/images/gemelos-sentado.jpg",
+    "advertencias": "No uses impulso para subir los talones, controlando siempre el movimiento."
+  },
+  {
+    "id": "gemelos-en-punta-de-pie",
+    "nombre": "Elevación de gemelos en punta de pie",
+    "nombre_ingles": "Toe Raise",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["ninguno"],
+    "nivel": "principiante",
+    "descripcion": "Este ejercicio puede realizarse sin equipo y se centra en trabajar las pantorrillas mediante la elevación de los talones.",
+    "instrucciones": [
+      "Párate erguido con los pies al ancho de los hombros.",
+      "Eleva lentamente los talones, concentrándote en apretar los músculos de las pantorrillas en la parte superior del movimiento.",
+      "Baja lentamente los talones hasta que estén cerca del suelo."
+    ],
+    "consejos": [
+      "Realiza el movimiento de forma controlada, evitando balanceos.",
+      "Asegúrate de mantener el cuerpo erguido para concentrar el trabajo en las pantorrillas."
+    ],
+    "repeticiones_sugeridas": "4 series de 15-20 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=Jz8w4FdFOq8",
+    "imagen": "https://example.com/images/gemelos-en-punta-de-pie.jpg",
+    "advertencias": "Evita cualquier tipo de impulso, mantén el movimiento controlado."
+  },
+  {
+    "id": "saltos-con-dos-pies",
+    "nombre": "Saltos con dos pies",
+    "nombre_ingles": "Double Leg Jumps",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos", "cuádriceps"],
+    "tipo": "funcional",
+    "equipo": ["ninguno"],
+    "nivel": "intermedio",
+    "descripcion": "Los saltos con ambos pies mejoran la explosividad y también activan las pantorrillas.",
+    "instrucciones": [
+      "Párate con los pies al ancho de los hombros.",
+      "Salta hacia arriba lo más alto que puedas, concentrándote en usar las pantorrillas para impulsar el movimiento.",
+      "Aterriza suavemente con las rodillas ligeramente flexionadas y repite el movimiento."
+    ],
+    "consejos": [
+      "Asegúrate de usar las pantorrillas para impulsarte y no el impulso de las piernas.",
+      "Realiza los saltos de manera controlada, evitando aterrizajes bruscos."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=QgT1hP-Q-M4",
+    "imagen": "https://example.com/images/saltos-con-dos-pies.jpg",
+    "advertencias": "Evita aterrizar con las rodillas extendidas para prevenir lesiones."
+  },
+  {
+    "id": "gemelos-en-banco",
+    "nombre": "Elevación de gemelos en banco",
+    "nombre_ingles": "Calf Raise on Bench",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["banco"],
+    "nivel": "intermedio",
+    "descripcion": "Al realizar este ejercicio sobre un banco, se permite un rango de movimiento mayor, lo que aumenta la activación de las pantorrillas.",
+    "instrucciones": [
+      "Coloca las puntas de los pies en el borde de un banco y los talones colgando.",
+      "Eleva los talones lo más alto posible, apretando los gemelos.",
+      "Baja lentamente los talones, sintiendo un buen estiramiento al final del movimiento."
+    ],
+    "consejos": [
+      "No dejes que tus talones toquen el suelo al bajar para mantener la tensión constante.",
+      "Asegúrate de mantener el equilibrio durante todo el movimiento."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=I2CDrZZw2Ek",
+    "imagen": "https://example.com/images/gemelos-en-banco.jpg",
+    "advertencias": "No uses impulso para elevarte; controla el movimiento."
+  },
+  {
+    "id": "gemelos-con-barras",
+    "nombre": "Elevación de gemelos con barra",
+    "nombre_ingles": "Barbell Calf Raise",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "intermedio",
+    "descripcion": "Utilizando una barra con peso, puedes aumentar la intensidad del trabajo en las pantorrillas.",
+    "instrucciones": [
+      "Colócate de pie con la barra sobre los hombros, asegurándote de que los pies estén al ancho de los hombros.",
+      "Realiza una elevación de talones, subiendo lo más alto posible.",
+      "Baja los talones lentamente para regresar a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén las rodillas ligeramente flexionadas durante todo el ejercicio.",
+      "No utilices el impulso para elevarte; concéntrate en el trabajo muscular."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=YNrszwQDaXc",
+    "imagen": "https://example.com/images/gemelos-con-barras.jpg",
+    "advertencias": "Asegúrate de no inclinarte hacia adelante con la barra."
+  },
+  {
+    "id": "gemelos-en-maquina",
+    "nombre": "Elevación de gemelos en máquina Smith",
+    "nombre_ingles": "Smith Machine Calf Raise",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["máquina Smith"],
+    "nivel": "intermedio",
+    "descripcion": "La máquina Smith ofrece estabilidad durante el ejercicio, lo que permite enfocarse completamente en las pantorrillas.",
+    "instrucciones": [
+      "Coloca los pies sobre una plataforma y los talones colgando.",
+      "Con la barra Smith sobre tus hombros, realiza una elevación de talones.",
+      "Baja lentamente para sentir un buen estiramiento."
+    ],
+    "consejos": [
+      "Mantén el torso erguido y controla el movimiento.",
+      "Evita que los talones toquen el suelo al bajar."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=cNrYWe54d8Q",
+    "imagen": "https://example.com/images/gemelos-en-maquina.jpg",
+    "advertencias": "No utilices peso excesivo que pueda comprometer tu forma."
+  },
+  {
+    "id": "gemelos-con-banda",
+    "nombre": "Elevación de gemelos con banda de resistencia",
+    "nombre_ingles": "Resistance Band Calf Raise",
+    "grupo_muscular": "pantorrillas",
+    "musculos_secundarios": ["glúteos"],
+    "tipo": "aislante",
+    "equipo": ["banda de resistencia"],
+    "nivel": "principiante",
+    "descripcion": "Con una banda de resistencia, puedes trabajar las pantorrillas de una manera más accesible en cualquier lugar.",
+    "instrucciones": [
+      "Coloca una banda de resistencia debajo de los pies y sostén los extremos con las manos.",
+      "Elevate los talones de modo que te quedes de puntillas.",
+      "Baja lentamente hasta sentir un buen estiramiento."
+    ],
+    "consejos": [
+      "Asegúrate de que la banda esté bien sujeta durante todo el movimiento.",
+      "Realiza el movimiento con control y sin prisa."
+    ],
+    "repeticiones_sugeridas": "3 series de 15-20 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=7_gbJ8hMgcY",
+    "imagen": "https://example.com/images/gemelos-con-banda.jpg",
+    "advertencias": "No uses demasiado impulso al elevarte."
+  }
+]

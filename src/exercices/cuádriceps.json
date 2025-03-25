@@ -1,0 +1,219 @@
+[
+  {
+    "id": "sentadilla",
+    "nombre": "Sentadilla",
+    "nombre_ingles": "Squat",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": ["glúteos", "core"],
+    "tipo": "compuesto",
+    "equipo": ["peso libre", "barra"],
+    "nivel": "principiante",
+    "descripcion": "Es el ejercicio fundamental para trabajar los cuádriceps, también involucra glúteos y core.",
+    "instrucciones": [
+      "Colocá la barra sobre la parte superior de la espalda.",
+      "Bajá el cuerpo flexionando las rodillas, manteniendo la espalda recta.",
+      "Asegurate de que las rodillas no sobrepasen los pies.",
+      "Subí de nuevo hasta extender las piernas."
+    ],
+    "consejos": [
+      "Mantén el torso recto durante todo el movimiento.",
+      "No dejes que tus rodillas se desvíen hacia adentro."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=dy28p7n7fJk",
+    "imagen": "https://example.com/images/sentadilla.jpg",
+    "advertencias": "Evita usar demasiado peso si no tienes buena técnica."
+  },
+  {
+    "id": "prensa",
+    "nombre": "Prensa de pierna",
+    "nombre_ingles": "Leg Press",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": ["glúteos", "pantorrillas"],
+    "tipo": "compuesto",
+    "equipo": ["máquina de prensa de pierna"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio que permite trabajar los cuádriceps con un movimiento controlado.",
+    "instrucciones": [
+      "Siéntate en la máquina y coloca los pies en la plataforma a la altura de los hombros.",
+      "Empujá la plataforma con las piernas hasta que queden extendidas, pero sin bloquear las rodillas.",
+      "Bajá la plataforma lentamente hasta que tus rodillas formen un ángulo de 90 grados."
+    ],
+    "consejos": [
+      "No dejes que la plataforma baje demasiado rápido.",
+      "Asegúrate de no bloquear las rodillas al subir."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=IZxyj0uG5GQ",
+    "imagen": "https://example.com/images/prensa-pierna.jpg",
+    "advertencias": "No uses un peso excesivo si eres principiante."
+  },
+  {
+    "id": "zancadas",
+    "nombre": "Zancadas",
+    "nombre_ingles": "Lunges",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": ["glúteos", "isquiotibiales"],
+    "tipo": "compuesto",
+    "equipo": ["peso libre", "mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio de peso corporal o con mancuernas que trabaja los cuádriceps de manera unilateral.",
+    "instrucciones": [
+      "Da un paso hacia adelante con una pierna, bajando la rodilla trasera hacia el suelo.",
+      "Asegúrate de que la rodilla delantera no sobrepase los pies.",
+      "Subí y repetí con la otra pierna."
+    ],
+    "consejos": [
+      "Mantén el torso recto durante todo el movimiento.",
+      "Controla la bajada y sube con fuerza desde el talón."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=QOVaHwm-Q6U",
+    "imagen": "https://example.com/images/zancadas.jpg",
+    "advertencias": "Evita dar pasos demasiado largos."
+  },
+  {
+    "id": "extensiones-pierna",
+    "nombre": "Extensiones de pierna",
+    "nombre_ingles": "Leg Extensions",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["máquina de extensión de pierna"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio en máquina que aísla y trabaja los cuádriceps de manera intensa.",
+    "instrucciones": [
+      "Siéntate en la máquina y ajusta el cojín para que quede sobre tus tobillos.",
+      "Extiende las piernas hasta que estén completamente rectas.",
+      "Bajá lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "Evita bloquear las rodillas al final del movimiento.",
+      "Controla la bajada para trabajar más el músculo."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=8Zjj7xq2QOY",
+    "imagen": "https://example.com/images/extensiones-pierna.jpg",
+    "advertencias": "No uses demasiado peso para evitar lesiones en las rodillas."
+  },
+  {
+    "id": "sentadilla-frontal",
+    "nombre": "Sentadilla frontal",
+    "nombre_ingles": "Front Squat",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": ["glúteos", "core"],
+    "tipo": "compuesto",
+    "equipo": ["barra"],
+    "nivel": "avanzado",
+    "descripcion": "Sentadilla que pone más énfasis en los cuádriceps debido a la posición del torso.",
+    "instrucciones": [
+      "Colocá la barra sobre los trapecios, con los codos elevados y las muñecas flexionadas.",
+      "Bajá el torso flexionando las rodillas, manteniendo el peso en los talones.",
+      "Subí controlando el movimiento."
+    ],
+    "consejos": [
+      "Mantén la espalda recta durante todo el movimiento.",
+      "No dejes que las rodillas se desvíen hacia adentro."
+    ],
+    "repeticiones_sugeridas": "3 series de 6-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=Vq0t9dx5rW8",
+    "imagen": "https://example.com/images/sentadilla-frontal.jpg",
+    "advertencias": "Evita el uso de pesos altos sin tener una técnica adecuada."
+  },
+  {
+    "id": "sentadilla-bulgara",
+    "nombre": "Sentadilla búlgara",
+    "nombre_ingles": "Bulgarian Split Squat",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": ["glúteos", "isquiotibiales"],
+    "tipo": "compuesto",
+    "equipo": ["peso libre", "banco"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio unilateral que aísla el cuádriceps mientras trabaja el core y la estabilidad.",
+    "instrucciones": [
+      "Colocá una pierna sobre un banco detrás de vos.",
+      "Bajá el cuerpo flexionando la rodilla delantera, manteniendo la espalda recta.",
+      "Subí hasta extender completamente la pierna."
+    ],
+    "consejos": [
+      "Controla el movimiento y no dejes que la rodilla delantera pase los pies.",
+      "Asegúrate de que el pie de apoyo esté firme."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=2C-uNgKwPLE",
+    "imagen": "https://example.com/images/sentadilla-bulgara.jpg",
+    "advertencias": "Mantén el control y no uses demasiada carga al principio."
+  },
+  {
+    "id": "salto-pistola",
+    "nombre": "Salto pistola",
+    "nombre_ingles": "Pistol Squat Jumps",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": ["glúteos", "core"],
+    "tipo": "compuesto",
+    "equipo": ["peso corporal"],
+    "nivel": "avanzado",
+    "descripcion": "Ejercicio pliométrico que combina saltos con una sentadilla unilateral.",
+    "instrucciones": [
+      "Parate en una pierna y flexioná la rodilla para bajar a una posición de sentadilla.",
+      "Salta explosivamente mientras extiendes la pierna.",
+      "Recibí el salto en la misma pierna y repetí el movimiento."
+    ],
+    "consejos": [
+      "Realizá el salto de manera controlada.",
+      "Mantén el equilibrio y la estabilidad en todo momento."
+    ],
+    "repeticiones_sugeridas": "3 series de 6-8 repeticiones por pierna",
+    "url_video": "https://www.youtube.com/watch?v=8X7WZx70XH4",
+    "imagen": "https://example.com/images/salto-pistola.jpg",
+    "advertencias": "No lo hagas si no tienes control en las sentadillas o si tienes problemas de rodillas."
+  },
+  {
+    "id": "extensiones-cuadriceps",
+    "nombre": "Extensiones de cuádriceps en banco",
+    "nombre_ingles": "Seated Leg Extensions",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": [],
+    "tipo": "aislamiento",
+    "equipo": ["banco de extensión"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio en máquina para aislar el trabajo del cuádriceps.",
+    "instrucciones": [
+      "Sentate en el banco de extensión y ajustá los cojines.",
+      "Extendé las piernas hasta que estén completamente rectas.",
+      "Bajá las piernas controlando el movimiento."
+    ],
+    "consejos": [
+      "No bloquees las rodillas al final del movimiento.",
+      "Realizá el movimiento lentamente para maximizar el trabajo muscular."
+    ],
+    "repeticiones_sugeridas": "3 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=8Zjj7xq2QOY",
+    "imagen": "https://example.com/images/extensiones-cuadriceps.jpg",
+    "advertencias": "Mantén el control en todo momento."
+  },
+  {
+    "id": "sentadilla-con-salto",
+    "nombre": "Sentadilla con salto",
+    "nombre_ingles": "Jump Squats",
+    "grupo_muscular": "cuádriceps",
+    "musculos_secundarios": ["glúteos", "pantorrillas"],
+    "tipo": "pliométrico",
+    "equipo": ["peso corporal"],
+    "nivel": "intermedio",
+    "descripcion": "Sentadilla que incorpora un salto al final del movimiento.",
+    "instrucciones": [
+      "Realizá una sentadilla normal.",
+      "Cuando estés en la parte baja, impulsate para saltar lo más alto posible.",
+      "Aterrizá suavemente y repite."
+    ],
+    "consejos": [
+      "Salta lo más alto que puedas.",
+      "Asegurate de aterrizar suavemente para proteger las rodillas."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=kwWnOKOYmr4",
+    "imagen": "https://example.com/images/sentadilla-con-salto.jpg",
+    "advertencias": "Evita saltar con las rodillas dobladas."
+  }
+]

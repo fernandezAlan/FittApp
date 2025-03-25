@@ -1,0 +1,221 @@
+[
+  {
+    "id": "dominadas",
+    "nombre": "Dominadas",
+    "nombre_ingles": "Pull-ups",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["bíceps", "trapecios", "deltoides"],
+    "tipo": "compuesto",
+    "equipo": ["barra de dominadas"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio clásico para trabajar los dorsales de manera efectiva.",
+    "instrucciones": [
+      "Sujétate a la barra con las palmas hacia fuera.",
+      "Jala tu cuerpo hacia arriba hasta que tu mentón esté por encima de la barra.",
+      "Baja controladamente hasta que los brazos estén completamente extendidos."
+    ],
+    "consejos": [
+      "Evita balancearte durante el movimiento.",
+      "Mantén el abdomen contraído para estabilizar el cuerpo."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=eGo4IYlbE5g",
+    "imagen": "https://example.com/images/dominadas.jpg",
+    "advertencias": "Asegúrate de no usar impulso para evitar lesiones en los hombros."
+  },
+  {
+    "id": "jalon-polea-alto",
+    "nombre": "Jalón en polea alta",
+    "nombre_ingles": "Lat Pulldown",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["bíceps", "trapecios"],
+    "tipo": "compuesto",
+    "equipo": ["polea alta", "barra o cuerda"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio que simula la dominada pero utilizando una máquina.",
+    "instrucciones": [
+      "Sujétate a la barra con las manos más anchas que los hombros.",
+      "Jala la barra hacia tu pecho, manteniendo la espalda recta.",
+      "Suelta la barra controladamente hasta que los brazos estén extendidos."
+    ],
+    "consejos": [
+      "No inclines demasiado el torso hacia atrás.",
+      "Mantén los codos cerca del cuerpo al descender la barra."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=CAwf7n6Luuc",
+    "imagen": "https://example.com/images/jalon-polea-alto.jpg",
+    "advertencias": "No uses un peso demasiado alto para evitar sobrecargar la espalda baja."
+  },
+  {
+    "id": "remo-con-barra",
+    "nombre": "Remo con barra",
+    "nombre_ingles": "Barbell Row",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["trapecios", "bíceps", "deltoides posterior"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio que trabaja toda la parte media y alta de la espalda.",
+    "instrucciones": [
+      "Párese con los pies a la altura de los hombros y la barra frente a ti.",
+      "Inclina el torso hacia adelante manteniendo la espalda recta.",
+      "Jala la barra hacia el abdomen, apretando los dorsales al final del movimiento.",
+      "Baja la barra controladamente hasta la posición inicial."
+    ],
+    "consejos": [
+      "Mantén la espalda recta y evita redondearla.",
+      "No uses demasiado peso, enfócate en la forma."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=vT2GjY_Umpw",
+    "imagen": "https://example.com/images/remo-con-barra.jpg",
+    "advertencias": "Asegúrate de no arquear la espalda baja, ya que podría provocar lesiones."
+  },
+  {
+    "id": "remo-con-mancuernas",
+    "nombre": "Remo con mancuernas",
+    "nombre_ingles": "Dumbbell Row",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["trapecios", "bíceps", "deltoides posterior"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio para trabajar un lado de la espalda a la vez, permitiendo un rango de movimiento más amplio.",
+    "instrucciones": [
+      "Coloca una rodilla y una mano en un banco, manteniendo el torso paralelo al suelo.",
+      "Con la otra mano, sujeta la mancuerna y jálala hacia tu torso.",
+      "Baja la mancuerna controladamente y repite."
+    ],
+    "consejos": [
+      "Mantén la espalda recta durante todo el ejercicio.",
+      "No balancees el torso para generar impulso."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-12 repeticiones por brazo",
+    "url_video": "https://www.youtube.com/watch?v=pYcpY20QaE8",
+    "imagen": "https://example.com/images/remo-con-mancuernas.jpg",
+    "advertencias": "Evita rotar el torso, mantén la estabilidad durante el ejercicio."
+  },
+  {
+    "id": "pull-over",
+    "nombre": "Pull-over con mancuerna",
+    "nombre_ingles": "Dumbbell Pullover",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["pecho", "tríceps", "deltoides"],
+    "tipo": "aislante",
+    "equipo": ["mancuerna", "banco"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio excelente para expandir la caja torácica y trabajar los dorsales.",
+    "instrucciones": [
+      "Acostate sobre un banco con los pies firmemente plantados en el suelo.",
+      "Sujeta una mancuerna con ambas manos y colócala sobre tu pecho.",
+      "Baja lentamente la mancuerna por encima de tu cabeza, sintiendo el estiramiento en los dorsales.",
+      "Levanta la mancuerna de regreso a la posición inicial."
+    ],
+    "consejos": [
+      "Evita arquear la espalda excesivamente.",
+      "Realiza el movimiento con control, especialmente al regresar."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=jmWObC-ozg0",
+    "imagen": "https://example.com/images/pull-over.jpg",
+    "advertencias": "No uses un peso demasiado alto para evitar tensar los hombros."
+  },
+  {
+    "id": "remo-en-maquina",
+    "nombre": "Remo en máquina",
+    "nombre_ingles": "Seated Cable Row",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["trapecios", "bíceps", "deltoides posterior"],
+    "tipo": "compuesto",
+    "equipo": ["máquina de remo"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio guiado para trabajar los dorsales con una resistencia constante.",
+    "instrucciones": [
+      "Siéntate en la máquina y ajusta el asiento y las piernas.",
+      "Sujeta las asas de la máquina y tira de ellas hacia tu torso.",
+      "Mantén la espalda recta y aprieta los omóplatos al final del movimiento."
+    ],
+    "consejos": [
+      "No inclines el torso hacia atrás, mantén la espalda recta.",
+      "Controla el movimiento tanto al jalar como al soltar las asas."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=HJSVR_2tAVk",
+    "imagen": "https://example.com/images/remo-en-maquina.jpg",
+    "advertencias": "Asegúrate de ajustar bien la máquina para evitar incomodidades."
+  },
+  {
+    "id": "peso-muerto",
+    "nombre": "Peso muerto",
+    "nombre_ingles": "Deadlift",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["glúteos", "piernas", "trapecios"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "avanzado",
+    "descripcion": "Ejercicio completo que fortalece la espalda baja y los dorsales.",
+    "instrucciones": [
+      "Párate con los pies a la altura de los hombros y la barra frente a ti.",
+      "Sujétala con las manos un poco más anchas que los hombros.",
+      "Levanta la barra manteniendo la espalda recta y usando las piernas y la cadera.",
+      "Baja la barra controladamente hasta que tus piernas estén completamente extendidas."
+    ],
+    "consejos": [
+      "Mantén la espalda recta durante todo el movimiento.",
+      "No dejes que la barra se desplace hacia adelante."
+    ],
+    "repeticiones_sugeridas": "3 series de 6-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=op9kVnSso6Q",
+    "imagen": "https://example.com/images/peso-muerto.jpg",
+    "advertencias": "Evita redondear la espalda baja al levantar la barra."
+  },
+  {
+    "id": "remo-t-bar",
+    "nombre": "Remo T-Bar",
+    "nombre_ingles": "T-Bar Row",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["trapecios", "bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra T", "discos de peso"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio eficaz para trabajar los dorsales y la parte media de la espalda.",
+    "instrucciones": [
+      "Colócate frente a la barra T y agárrala con las manos en pronación.",
+      "Tira de la barra hacia tu torso, manteniendo los codos pegados al cuerpo.",
+      "Aprieta los omóplatos al final del movimiento y controla el regreso."
+    ],
+    "consejos": [
+      "Mantén el torso ligeramente inclinado hacia adelante.",
+      "No uses impulso al realizar el movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=H1T6TwV1HvY",
+    "imagen": "https://example.com/images/remo-t-bar.jpg",
+    "advertencias": "Asegúrate de controlar el peso durante todo el movimiento."
+  },
+  {
+    "id": "pull-down-con-cuerda",
+    "nombre": "Pull-down con cuerda",
+    "nombre_ingles": "Rope Lat Pulldown",
+    "grupo_muscular": "dorsales",
+    "musculos_secundarios": ["bíceps", "trapecios"],
+    "tipo": "compuesto",
+    "equipo": ["polea alta", "cuerda"],
+    "nivel": "intermedio",
+    "descripcion": "Variación del jalón en polea alta, que ofrece un agarre más neutral.",
+    "instrucciones": [
+      "Sujétate a la cuerda en la polea alta.",
+      "Jala la cuerda hacia abajo, separando las manos y llevando los codos hacia atrás.",
+      "Suelta la cuerda controladamente."
+    ],
+    "consejos": [
+      "Enfócate en apretar los dorsales al final del movimiento.",
+      "Mantén la espalda recta y evita balancearte."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=IlgX6K76dfQ",
+    "imagen": "https://example.com/images/pull-down-cuerda.jpg",
+    "advertencias": "Realiza el ejercicio con control para evitar lesiones."
+  }
+]

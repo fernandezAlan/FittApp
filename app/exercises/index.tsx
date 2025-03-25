@@ -6,64 +6,63 @@ import {
   FlatList,
   Image,
   ActivityIndicator,
+  ImageBackground,
 } from "react-native";
 import axios from "axios";
 import { StatusBar } from "expo-status-bar";
-import {ExerciseStyles as styles} from "../../src/styles/styles"
-
+import { ExerciseStyles as styles } from "../../src/styles/styles";
+import { getBodyParts } from "@/src/services/api";
+import { HomeStyles } from "../../src/styles/styles";
+import { MuscleList } from "@/src/types";
+import { Link, Stack } from "expo-router";
 const ExercisesScreen = () => {
-  const [exercises, setExercises] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  const fetchExercises = async () => {
-    try {
-      const response = await axios.get(
-        "https://wger.de/api/v2/exerciseinfo/?limit=20&language=2"
-      );
-      setExercises(response.data.results);
-    } catch (error) {
-      console.error("Error al obtener los ejercicios", error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    fetchExercises();
-  }, []);
-
-  const renderItem = ({ item }) => {
-    const image = item.images[0]?.image;
-
+  const renderItem = ({ item }: { item: string }) => {
     return (
-      <View style={styles.exerciseCard}>
-        {image ? (
-          <Image source={{ uri: image }} style={styles.exerciseImage} />
-        ) : (
-          <View style={[styles.exerciseImage, styles.imagePlaceholder]}>
-            <Text style={{ color: "#94A3B8" }}>Sin imagen</Text>
-          </View>
-        )}
-        <Text style={styles.exerciseName}>{item.name}</Text>
-      </View>
+      <Link
+        href={{
+          pathname: "/exercises/[id]",
+          params: { id: item },
+        }}
+      >
+        <View style={styles.exerciseCard}>
+          <Text style={styles.exerciseName}>{item}</Text>
+        </View>
+      </Link>
     );
   };
 
   return (
-    <View style={styles.container}>
-      <StatusBar style="light" />
-      <Text style={styles.title}>Ejercicios disponibles</Text>
-      {loading ? (
-        <ActivityIndicator size="large" color="#FACC15" />
-      ) : (
+    <ImageBackground
+      source={require("../../assets/images/fitness-bg.jpg")}
+      style={HomeStyles.backgroundImage}
+      resizeMode="cover"
+    >
+      <Stack.Screen
+        options={{
+          title: "Elige una opción",
+          headerStyle: { backgroundColor: "black" },
+          headerTintColor: "#facc15",
+          headerTitleStyle: {
+            fontWeight: "bold",
+            fontSize: 25,
+          },
+        }}
+      />
+      <View style={HomeStyles.overlay} />
+      <View style={styles.container}>
         <FlatList
-          data={exercises}
-          keyExtractor={(item) => item.id.toString()}
+          data={Object.values(MuscleList)}
+          keyExtractor={(item) => item}
           renderItem={renderItem}
-          contentContainerStyle={{ paddingBottom: 100 }}
+          contentContainerStyle={{
+            paddingBottom: 50,
+            flexDirection: "row",
+            flexWrap: "wrap",
+            gap: 10,
+          }}
         />
-      )}
-    </View>
+      </View>
+    </ImageBackground>
   );
 };
 

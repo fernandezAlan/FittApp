@@ -1,0 +1,194 @@
+[
+  {
+    "id": "encogimientos-barras",
+    "nombre": "Encogimientos con barra",
+    "nombre_ingles": "Barbell Shrug",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["deltoides", "trapecio superior"],
+    "tipo": "compuesto",
+    "equipo": ["barra"],
+    "nivel": "principiante",
+    "descripcion": "El encogimiento con barra es uno de los ejercicios más efectivos para trabajar los trapecios, concentrándose en la parte superior del músculo.",
+    "instrucciones": [
+      "Colócate de pie con los pies a la altura de los hombros, sosteniendo una barra frente a los muslos.",
+      "Con los brazos extendidos, levanta los hombros lo más alto posible, manteniendo los codos rectos.",
+      "Baja los hombros lentamente para regresar a la posición inicial."
+    ],
+    "consejos": [
+      "No muevas los codos, solo los hombros.",
+      "Realiza el movimiento de forma controlada y evita impulsos."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=VtX3x-zvhRU",
+    "imagen": "https://example.com/images/encogimientos-barras.jpg",
+    "advertencias": "No uses un peso excesivo, ya que esto puede comprometer la forma."
+  },
+  {
+    "id": "encogimientos-mancuernas",
+    "nombre": "Encogimientos con mancuernas",
+    "nombre_ingles": "Dumbbell Shrug",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["deltoides", "trapecio superior"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas"],
+    "nivel": "principiante",
+    "descripcion": "Los encogimientos con mancuernas permiten trabajar los trapecios de forma aislada y con mayor control.",
+    "instrucciones": [
+      "Sujeta una mancuerna en cada mano, manteniendo los brazos extendidos a los lados.",
+      "Eleva los hombros lo más alto posible sin mover los codos.",
+      "Baja los hombros lentamente hasta la posición inicial."
+    ],
+    "consejos": [
+      "Asegúrate de no mover el torso durante el movimiento.",
+      "Mantén el control al bajar los hombros."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=tLehQbJL6pY",
+    "imagen": "https://example.com/images/encogimientos-mancuernas.jpg",
+    "advertencias": "No uses un peso excesivo para evitar lesiones en los hombros."
+  },
+  {
+    "id": "remo-alto",
+    "nombre": "Remo alto con barra",
+    "nombre_ingles": "Barbell Upright Row",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["deltoides", "brazos"],
+    "tipo": "compuesto",
+    "equipo": ["barra"],
+    "nivel": "intermedio",
+    "descripcion": "El remo alto con barra trabaja los trapecios y los deltoides, además de involucrar los músculos de los brazos.",
+    "instrucciones": [
+      "Sujeta la barra con las manos a la altura de los hombros.",
+      "Tira de la barra hacia arriba, manteniéndola cerca del cuerpo y llevando los codos hacia arriba.",
+      "Cuando los codos estén a la altura de los hombros, baja la barra controladamente."
+    ],
+    "consejos": [
+      "Mantén el torso erguido durante todo el ejercicio.",
+      "No dejes que los codos se muevan hacia atrás."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=I_7Q2zD1osY",
+    "imagen": "https://example.com/images/remo-alto.jpg",
+    "advertencias": "Evita usar demasiado peso para no comprometer la forma y la salud de los hombros."
+  },
+  {
+    "id": "encogimientos-en-máquina",
+    "nombre": "Encogimientos en máquina",
+    "nombre_ingles": "Machine Shrug",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["trapecio superior"],
+    "tipo": "aislante",
+    "equipo": ["máquina de encogimientos"],
+    "nivel": "intermedio",
+    "descripcion": "La máquina de encogimientos proporciona un control total sobre el movimiento, permitiendo concentrarse en los trapecios.",
+    "instrucciones": [
+      "Siéntate en la máquina de encogimientos, colocando las manos en los agarres.",
+      "Levanta los hombros lo más alto posible, contrayendo los trapecios.",
+      "Baja lentamente los hombros a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén el torso en posición fija para evitar el impulso.",
+      "Concédele tiempo a la contracción en la parte superior del movimiento."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=82cFyEq-IlA",
+    "imagen": "https://example.com/images/encogimientos-en-máquina.jpg",
+    "advertencias": "No utilices un peso excesivo que te haga perder el control del movimiento."
+  },
+  {
+    "id": "remo-pendlay",
+    "nombre": "Remo Pendlay",
+    "nombre_ingles": "Pendlay Row",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["espalda", "bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra"],
+    "nivel": "avanzado",
+    "descripcion": "El remo Pendlay es un ejercicio que permite un enfoque intenso en los trapecios y la espalda.",
+    "instrucciones": [
+      "Colócate con los pies a la altura de los hombros, agarra la barra con un agarre prono.",
+      "Levanta la barra del suelo con un movimiento explosivo, llevando los codos hacia atrás.",
+      "Baja la barra de manera controlada al suelo y repite."
+    ],
+    "consejos": [
+      "Mantén la espalda recta durante el movimiento.",
+      "Utiliza una técnica explosiva para maximizar la activación muscular."
+    ],
+    "repeticiones_sugeridas": "4 series de 6-8 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=qFfbLBrTnIU",
+    "imagen": "https://example.com/images/remo-pendlay.jpg",
+    "advertencias": "Mantén la postura correcta para evitar lesiones en la espalda."
+  },
+  {
+    "id": "elevaciones-laterales-con-mancuernas",
+    "nombre": "Elevaciones laterales con mancuernas",
+    "nombre_ingles": "Dumbbell Lateral Raises",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["deltoides"],
+    "tipo": "aislante",
+    "equipo": ["mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Las elevaciones laterales son un ejercicio popular para los hombros, pero también activan los trapecios.",
+    "instrucciones": [
+      "Sujeta una mancuerna en cada mano y mantén los brazos a los costados.",
+      "Levanta los brazos hacia los lados hasta llegar a la altura de los hombros.",
+      "Baja los brazos lentamente hasta la posición inicial."
+    ],
+    "consejos": [
+      "Mantén los codos ligeramente doblados durante todo el movimiento.",
+      "Realiza el ejercicio de manera controlada."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=3VcKaXpzqRo",
+    "imagen": "https://example.com/images/elevaciones-laterales.jpg",
+    "advertencias": "No levantes los brazos por encima de la línea de los hombros para evitar tensión innecesaria."
+  },
+  {
+    "id": "remar-con-cuerda",
+    "nombre": "Remo con cuerda en polea",
+    "nombre_ingles": "Cable Rope Row",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["brazos", "deltoides posterior"],
+    "tipo": "aislante",
+    "equipo": ["cuerda", "polea"],
+    "nivel": "intermedio",
+    "descripcion": "El remo con cuerda en polea trabaja los trapecios y los músculos de la espalda superior de manera efectiva.",
+    "instrucciones": [
+      "Sujeta la cuerda con ambas manos y siéntate frente a la polea.",
+      "Tira de la cuerda hacia tu torso, asegurándote de mantener los codos pegados al cuerpo.",
+      "Baja controladamente la cuerda para regresar a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén el pecho hacia adelante y la espalda recta durante todo el movimiento.",
+      "Realiza el movimiento de forma controlada para maximizar la activación muscular."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=5r1jUYoRX60",
+    "imagen": "https://example.com/images/remar-con-cuerda.jpg",
+    "advertencias": "No dejes que la espalda se curve al realizar el movimiento."
+  },
+  {
+    "id": "trapecio-invertido",
+    "nombre": "Trapecio invertido en máquina",
+    "nombre_ingles": "Reverse Pec Deck",
+    "grupo_muscular": "trapecios",
+    "musculos_secundarios": ["deltoides posterior", "dorsales"],
+    "tipo": "aislante",
+    "equipo": ["máquina de peck deck"],
+    "nivel": "intermedio",
+    "descripcion": "El trapecio invertido en la máquina trabaja los trapecios y los deltoides posteriores.",
+    "instrucciones": [
+      "Siéntate en la máquina con el pecho apoyado en el respaldo.",
+      "Agárrate de las manijas de la máquina con las manos hacia adelante.",
+      "Junta los omóplatos al tirar de las manijas hacia atrás."
+    ],
+    "consejos": [
+      "Mantén los codos ligeramente doblados durante todo el movimiento.",
+      "Concédele tiempo a la contracción en la parte final."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=7DJOBd1D7xw",
+    "imagen": "https://example.com/images/trapecio-invertido.jpg",
+    "advertencias": "Evita usar un peso demasiado alto que te haga perder el control."
+  }
+]

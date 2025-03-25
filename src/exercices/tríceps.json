@@ -1,0 +1,218 @@
+[
+  {
+    "id": "fondos",
+    "nombre": "Fondos en paralelas",
+    "nombre_ingles": "Dips",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["pecho", "hombros"],
+    "tipo": "compuesto",
+    "equipo": ["paralelas"],
+    "nivel": "intermedio",
+    "descripcion": "Los fondos en paralelas son uno de los ejercicios más efectivos para trabajar los tríceps, especialmente cuando se inclina el torso hacia adelante.",
+    "instrucciones": [
+      "Colócate en las paralelas y sujeta las barras con las manos.",
+      "Baja el cuerpo doblando los codos hasta que los brazos estén a 90 grados.",
+      "Empuja hacia arriba hasta volver a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén los codos cerca del cuerpo para enfocarte en los tríceps.",
+      "Evita ir demasiado abajo para no comprometer la salud de los hombros."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=2z8JmcrW-As",
+    "imagen": "https://example.com/images/fondos.jpg",
+    "advertencias": "No dejes que los codos se abran hacia los lados, ya que eso activaría más el pecho."
+  },
+  {
+    "id": "extensiones-triceps",
+    "nombre": "Extensiones de tríceps con cuerda",
+    "nombre_ingles": "Rope Triceps Pushdown",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["hombros", "pecho"],
+    "tipo": "aislante",
+    "equipo": ["cuerda", "polea"],
+    "nivel": "principiante",
+    "descripcion": "Las extensiones de tríceps con cuerda son un excelente ejercicio para aislar los tríceps, permitiendo un rango de movimiento completo.",
+    "instrucciones": [
+      "Agarra la cuerda con ambas manos y colócala en la polea superior.",
+      "Tira de la cuerda hacia abajo, separando las manos mientras contraes los tríceps.",
+      "Vuelve lentamente a la posición inicial controlando el movimiento."
+    ],
+    "consejos": [
+      "Mantén los codos fijos en tu costado durante todo el movimiento.",
+      "Concédele tiempo a la contracción en la parte inferior."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=6aBrgXqWQjo",
+    "imagen": "https://example.com/images/extensiones-triceps.jpg",
+    "advertencias": "Evita usar un peso excesivo para que el movimiento no pierda control."
+  },
+  {
+    "id": "extensiones-mancuernas",
+    "nombre": "Extensión de tríceps sobre la cabeza con mancuerna",
+    "nombre_ingles": "Overhead Dumbbell Triceps Extension",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["hombros", "pecho"],
+    "tipo": "aislante",
+    "equipo": ["mancuerna"],
+    "nivel": "principiante",
+    "descripcion": "La extensión de tríceps sobre la cabeza con mancuerna es un ejercicio eficaz para trabajar la parte larga de los tríceps.",
+    "instrucciones": [
+      "Sujeta una mancuerna con ambas manos y levántala por encima de la cabeza.",
+      "Baja la mancuerna detrás de la cabeza flexionando los codos.",
+      "Levanta la mancuerna de nuevo a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén los codos lo más fijos posibles para maximizar el trabajo en los tríceps.",
+      "Controla la bajada de la mancuerna, evitando movimientos bruscos."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=zkjP5tJldBQ",
+    "imagen": "https://example.com/images/extensiones-mancuernas.jpg",
+    "advertencias": "No dejes que la mancuerna se balancee, controla el movimiento todo el tiempo."
+  },
+  {
+    "id": "fondos-banco",
+    "nombre": "Fondos entre bancos",
+    "nombre_ingles": "Bench Dips",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["pecho", "hombros"],
+    "tipo": "compuesto",
+    "equipo": ["banco"],
+    "nivel": "intermedio",
+    "descripcion": "Los fondos entre bancos son una variante de los fondos que activan intensamente los tríceps, con un enfoque en la parte inferior del músculo.",
+    "instrucciones": [
+      "Coloca las manos sobre un banco detrás de ti y los talones de los pies sobre otro banco.",
+      "Baja el torso hacia el suelo flexionando los codos, manteniendo los codos cerca del cuerpo.",
+      "Sube de nuevo a la posición inicial, estirando los brazos completamente."
+    ],
+    "consejos": [
+      "No arquees demasiado la espalda durante el movimiento.",
+      "Asegúrate de mantener los codos alineados hacia atrás."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=6kALZikXxRk",
+    "imagen": "https://example.com/images/fondos-banco.jpg",
+    "advertencias": "Si sientes dolor en los hombros, reduce el rango de movimiento."
+  },
+  {
+    "id": "patadas-triceps",
+    "nombre": "Patadas de tríceps",
+    "nombre_ingles": "Triceps Kickbacks",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["hombros"],
+    "tipo": "aislante",
+    "equipo": ["mancuernas"],
+    "nivel": "principiante",
+    "descripcion": "Las patadas de tríceps son un ejercicio efectivo para aislar los tríceps y mejorar su definición.",
+    "instrucciones": [
+      "Sujeta una mancuerna con una mano y apoya la otra mano sobre un banco.",
+      "Inclina el torso hacia adelante, manteniendo la espalda recta.",
+      "Extiende el brazo hacia atrás hasta que esté completamente estirado, enfocándote en contraer el tríceps."
+    ],
+    "consejos": [
+      "Mantén el codo fijo durante todo el movimiento.",
+      "Evita balancear el cuerpo, realizando el movimiento de manera controlada."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones por brazo",
+    "url_video": "https://www.youtube.com/watch?v=nXi40XaLTg0",
+    "imagen": "https://example.com/images/patadas-triceps.jpg",
+    "advertencias": "Realiza el movimiento con una mancuerna que puedas controlar perfectamente."
+  },
+  {
+    "id": "rompecraneos",
+    "nombre": "Rompecráneos",
+    "nombre_ingles": "Skull Crushers",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["hombros", "pecho"],
+    "tipo": "aislante",
+    "equipo": ["barra EZ"],
+    "nivel": "intermedio",
+    "descripcion": "El rompecráneos es un ejercicio popular para trabajar los tríceps, especialmente la cabeza larga del músculo.",
+    "instrucciones": [
+      "Acostado en un banco plano, sujeta la barra EZ con un agarre prono.",
+      "Baja la barra hacia tu frente flexionando los codos.",
+      "Empuja la barra hacia arriba hasta que los brazos estén completamente extendidos."
+    ],
+    "consejos": [
+      "Mantén los codos fijos y cerca del cuerpo durante el movimiento.",
+      "Controla tanto la bajada como la subida de la barra."
+    ],
+    "repeticiones_sugeridas": "4 series de 8-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=d_KZxkY_0cM",
+    "imagen": "https://example.com/images/rompecraneos.jpg",
+    "advertencias": "No dejes que la barra golpee tu cara durante el ejercicio."
+  },
+  {
+    "id": "extensiones-cuerda",
+    "nombre": "Extensiones de tríceps con cuerda en polea",
+    "nombre_ingles": "Cable Triceps Rope Extension",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["hombros"],
+    "tipo": "aislante",
+    "equipo": ["cuerda", "polea"],
+    "nivel": "principiante",
+    "descripcion": "Las extensiones con cuerda en polea son ideales para trabajar los tríceps de manera aislada y con un rango de movimiento completo.",
+    "instrucciones": [
+      "Coloca una cuerda en una polea alta y agárrala con ambas manos.",
+      "Tira de la cuerda hacia abajo, separando las manos mientras mantienes los codos fijos.",
+      "Vuelve lentamente a la posición inicial."
+    ],
+    "consejos": [
+      "Concéntrate en el control de la cuerda y la contracción en la parte inferior.",
+      "Evita moverte hacia adelante o atrás durante el ejercicio."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=n0Vr9w9Z1p8",
+    "imagen": "https://example.com/images/extensiones-cuerda.jpg",
+    "advertencias": "No uses un peso excesivo que impida el control del ejercicio."
+  },
+  {
+    "id": "triceps-polea",
+    "nombre": "Extensión de tríceps en polea alta",
+    "nombre_ingles": "High Cable Triceps Extension",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["hombros"],
+    "tipo": "aislante",
+    "equipo": ["polea"],
+    "nivel": "principiante",
+    "descripcion": "Este ejercicio utiliza una polea para trabajar los tríceps de manera eficiente y controlada.",
+    "instrucciones": [
+      "Coloca una cuerda o barra en la polea alta.",
+      "Tira hacia abajo, extendiendo los brazos completamente.",
+      "Mantén los codos fijos y controlados."
+    ],
+    "consejos": [
+      "Mantén la espalda recta y los codos pegados al cuerpo.",
+      "Realiza el movimiento de forma controlada, evitando impulso."
+    ],
+    "repeticiones_sugeridas": "4 series de 12-15 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=E_Zc8UbEK8o",
+    "imagen": "https://example.com/images/triceps-polea.jpg",
+    "advertencias": "No dejes que el peso sea demasiado alto y pierdas el control."
+  },
+  {
+    "id": "press-frances",
+    "nombre": "Press francés con barra",
+    "nombre_ingles": "French Press",
+    "grupo_muscular": "tríceps",
+    "musculos_secundarios": ["hombros"],
+    "tipo": "aislante",
+    "equipo": ["barra recta"],
+    "nivel": "intermedio",
+    "descripcion": "El press francés es un gran ejercicio para trabajar la parte larga de los tríceps, especialmente en la parte superior del músculo.",
+    "instrucciones": [
+      "Sujeta una barra recta con las manos en un agarre prono.",
+      "Baja la barra detrás de la cabeza doblando los codos.",
+      "Estira los brazos para regresar a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén los codos fijos y apunta a que el movimiento sea fluido.",
+      "Usa un peso moderado para evitar la tensión en los hombros."
+    ],
+    "repeticiones_sugeridas": "4 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=ghiFt1tMfJ8",
+    "imagen": "https://example.com/images/press-frances.jpg",
+    "advertencias": "Evita la tensión en los hombros manteniendo el movimiento controlado."
+  }
+]

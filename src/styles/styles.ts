@@ -1,5 +1,9 @@
 import { Dimensions, StyleSheet } from "react-native";
 let ScreenHeight = Dimensions.get("window").height;
+export enum Color {
+  principal="#facc15",
+  BG_transparent="#1e293b9e"
+}
 export const HomeStyles = StyleSheet.create({
     backgroundImage: {
         flex: 1,
@@ -101,7 +105,7 @@ export const HomeStyles = StyleSheet.create({
 export const ExerciseStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0F172A",
+    //backgroundColor: "#0F172A",
     padding: 20,
     paddingTop: 60,
   },
@@ -115,10 +119,12 @@ export const ExerciseStyles = StyleSheet.create({
     backgroundColor: "#1E293B",
     borderRadius: 12,
     padding: 12,
-    marginBottom: 16,
+    //marginBottom: 16,
     flexDirection: "row",
     alignItems: "center",
     gap: 12,
+    width:300,
+    height:50,
   },
   exerciseImage: {
     width: 60,
@@ -160,7 +166,7 @@ export const ProgressStyles = StyleSheet.create({
   },
   greeting: {
     fontSize: 24,
-    color: "#facc15",
+    color: Color.principal,
     fontWeight: "bold",
   },
   subtitle: {
@@ -458,5 +464,129 @@ export const CompleteProfileStyles = StyleSheet.create({
     color: "#0F172A",
     fontWeight: "bold",
     fontSize: 16,
+  },
+});
+
+export const  ExcerciseCardstyles = StyleSheet.create({
+  card: {
+    backgroundColor: Color.BG_transparent,
+    //borderRadius: 12,
+    overflow: 'hidden',
+    marginVertical: 10,
+    elevation: 5,
+    width:400,
+  },
+  bg:{
+     backgroundColor: 'rgba(0,0,0,0.3)',
+     height:150,
+     width:150
+  },
+  image: {
+    width: '100%',
+    height: 200,
+  },
+  info: {
+    padding: 12,
+  },
+  name: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: Color.principal,
+    marginBottom: 4,
+  },
+  type: {
+    fontSize: 14,
+    color: '#aaa',
+    textTransform: 'uppercase',
+    marginBottom: 2,
+  },
+  level: {
+    fontSize: 13,
+    color: '#ccc',
+    marginBottom: 6,
+  },
+  description: {
+    fontSize: 14,
+    color: '#ddd',
+  },
+  backgroundImage:{
+    width:150,
+    height:150
+  }
+});
+
+export const exerciseDetail = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+    backgroundColor: 'rgba(0,0,0,0.8)',
+    color:"white",
+    paddingBottom:30
+  },
+  image: {
+    width: "100%",
+    height: 200,
+    borderRadius: 10,
+  },
+  headerContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginVertical: 10,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color:Color.principal
+  },
+  addButton: {
+    padding: 8,
+  },
+  subtitle: {
+    fontSize: 18,
+    color: "white",
+    marginBottom: 10,
+  },
+  description: {
+    fontSize: 16,
+    marginBottom: 10,
+    color:'rgb(201, 201, 201)'
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginTop: 10,
+    color:"white"
+  },
+  listItem: {
+    fontSize: 16,
+    marginLeft: 10,
+    //textDecorationColor:"white",
+    color:'rgb(201, 201, 201)'
+  },
+  reps: {
+    fontSize: 16,
+    fontStyle: "italic",
+    marginBottom: 10,
+    color:"white"
+  },
+  warning: {
+    fontSize: 16,
+    color: "red",
+    fontWeight: "bold",
+  },
+  videoButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: 10,
+    backgroundColor: "#eee",
+    padding: 10,
+    borderRadius: 5,
+    marginBottom:40
+  },
+  videoText: {
+    fontSize: 16,
+    marginLeft: 8,
+    color: "red",
   },
 });

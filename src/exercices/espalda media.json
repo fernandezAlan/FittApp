@@ -1,0 +1,197 @@
+[
+  {
+    "id": "remo-en-maquina",
+    "nombre": "Remo en máquina",
+    "nombre_ingles": "Seated Cable Row",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["dorsales", "trapecios", "bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["máquina de remo"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio guiado para trabajar la espalda media de manera controlada.",
+    "instrucciones": [
+      "Siéntate en la máquina de remo, ajusta el asiento y las piernas.",
+      "Sujeta las asas de la máquina con un agarre neutro.",
+      "Tira de las asas hacia tu torso, apretando los omóplatos al final del movimiento.",
+      "Regresa a la posición inicial controlando el movimiento."
+    ],
+    "consejos": [
+      "Mantén la espalda recta y evita inclinarte hacia atrás.",
+      "No dejes que el torso se desplace hacia adelante al soltar las asas."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=HJSVR_2tAVk",
+    "imagen": "https://example.com/images/remo-en-maquina.jpg",
+    "advertencias": "Asegúrate de ajustar bien la máquina para evitar incomodidades."
+  },
+  {
+    "id": "remo-con-barra",
+    "nombre": "Remo con barra",
+    "nombre_ingles": "Barbell Row",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["dorsales", "trapecios", "bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio que trabaja toda la parte media de la espalda y los dorsales.",
+    "instrucciones": [
+      "Párate con los pies a la altura de los hombros y la barra frente a ti.",
+      "Inclina el torso hacia adelante manteniendo la espalda recta.",
+      "Jala la barra hacia el abdomen, apretando los dorsales al final del movimiento.",
+      "Baja la barra controladamente hasta que los brazos estén completamente extendidos."
+    ],
+    "consejos": [
+      "Evita redondear la espalda baja.",
+      "Mantén la barra cerca del cuerpo durante todo el movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-10 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=vT2GjY_Umpw",
+    "imagen": "https://example.com/images/remo-con-barra.jpg",
+    "advertencias": "No uses demasiado peso para evitar lesiones en la espalda baja."
+  },
+  {
+    "id": "remo-con-mancuernas",
+    "nombre": "Remo con mancuernas",
+    "nombre_ingles": "Dumbbell Row",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["dorsales", "trapecios", "bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["mancuernas"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio para trabajar un lado de la espalda a la vez, permitiendo un rango de movimiento más amplio.",
+    "instrucciones": [
+      "Coloca una rodilla y una mano en un banco, manteniendo el torso paralelo al suelo.",
+      "Con la otra mano, sujeta la mancuerna y jálala hacia tu torso.",
+      "Baja la mancuerna controladamente y repite con el otro brazo."
+    ],
+    "consejos": [
+      "Mantén la espalda recta durante todo el movimiento.",
+      "No uses impulso para levantar el peso."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-12 repeticiones por brazo",
+    "url_video": "https://www.youtube.com/watch?v=pYcpY20QaE8",
+    "imagen": "https://example.com/images/remo-con-mancuernas.jpg",
+    "advertencias": "Evita rotar el torso al realizar el ejercicio."
+  },
+  {
+    "id": "pull-over",
+    "nombre": "Pull-over con mancuerna",
+    "nombre_ingles": "Dumbbell Pullover",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["dorsales", "pecho", "tríceps"],
+    "tipo": "aislante",
+    "equipo": ["mancuernas", "banco"],
+    "nivel": "intermedio",
+    "descripcion": "Ejercicio para trabajar la parte superior y media de la espalda, especialmente los dorsales.",
+    "instrucciones": [
+      "Acostado en un banco, agarra una mancuerna con ambas manos.",
+      "Lleva la mancuerna por encima de tu cabeza, sintiendo el estiramiento en los dorsales.",
+      "Regresa controladamente a la posición inicial."
+    ],
+    "consejos": [
+      "Mantén los codos ligeramente doblados durante todo el movimiento.",
+      "No uses un peso demasiado pesado para evitar tensión innecesaria en los hombros."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=jmWObC-ozg0",
+    "imagen": "https://example.com/images/pull-over.jpg",
+    "advertencias": "Asegúrate de no arquear la espalda baja al realizar el ejercicio."
+  },
+  {
+    "id": "jalon-polea-baja",
+    "nombre": "Jalón en polea baja",
+    "nombre_ingles": "Low Cable Row",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["dorsales", "trapecios", "bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["polea baja", "barra o cuerda"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio eficaz para trabajar la espalda media utilizando una máquina de polea.",
+    "instrucciones": [
+      "Siéntate frente a la máquina de polea baja y sujeta la barra o cuerda.",
+      "Jala el equipo hacia tu torso, manteniendo los codos cerca de tu cuerpo.",
+      "Controla el movimiento de regreso hasta la posición inicial."
+    ],
+    "consejos": [
+      "Mantén el torso erguido y evita balancearte.",
+      "Aprieta los omóplatos al final del movimiento."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=seqaGJ21ZbA",
+    "imagen": "https://example.com/images/jalon-polea-baja.jpg",
+    "advertencias": "Evita usar un peso demasiado alto para no comprometer la técnica."
+  },
+  {
+    "id": "remo-invertido",
+    "nombre": "Remo invertido",
+    "nombre_ingles": "Inverted Row",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["dorsales", "trapecios", "bíceps"],
+    "tipo": "compuesto",
+    "equipo": ["barra fija o barra Smith"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio de peso corporal que trabaja la espalda media y los dorsales.",
+    "instrucciones": [
+      "Colócate debajo de una barra fija y agárrala con un agarre en pronación.",
+      "Con el cuerpo recto, jala el torso hacia la barra, tocando con el pecho.",
+      "Baja el torso controladamente hasta que los brazos estén extendidos."
+    ],
+    "consejos": [
+      "Mantén el cuerpo recto durante todo el ejercicio.",
+      "No dejes que las caderas caigan hacia el suelo."
+    ],
+    "repeticiones_sugeridas": "3 series de 8-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=6qZwr9VYxgg",
+    "imagen": "https://example.com/images/remo-invertido.jpg",
+    "advertencias": "Si es demasiado fácil, eleva los pies para aumentar la dificultad."
+  },
+  {
+    "id": "peso-muerto",
+    "nombre": "Peso muerto",
+    "nombre_ingles": "Deadlift",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["glúteos", "piernas", "trapecios"],
+    "tipo": "compuesto",
+    "equipo": ["barra", "discos de peso"],
+    "nivel": "avanzado",
+    "descripcion": "Ejercicio completo que fortalece la espalda baja y media.",
+    "instrucciones": [
+      "Párate con los pies a la altura de los hombros y la barra frente a ti.",
+      "Flexiona las rodillas y agarra la barra con un agarre en pronación o mixto.",
+      "Levanta la barra, extendiendo las caderas y las rodillas al mismo tiempo.",
+      "Baja la barra controladamente hasta el suelo."
+    ],
+    "consejos": [
+      "Mantén la espalda recta durante todo el movimiento.",
+      "No uses demasiado peso al principio para evitar lesiones."
+    ],
+    "repeticiones_sugeridas": "3 series de 6-8 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=op9kVnSso6Q",
+    "imagen": "https://example.com/images/peso-muerto.jpg",
+    "advertencias": "Asegúrate de no redondear la espalda baja."
+  },
+  {
+    "id": "extensiones-de-espalda",
+    "nombre": "Extensiones de espalda",
+    "nombre_ingles": "Back Extension",
+    "grupo_muscular": "espalda media",
+    "musculos_secundarios": ["glúteos", "isquiotibiales"],
+    "tipo": "aislante",
+    "equipo": ["máquina de extensiones de espalda"],
+    "nivel": "principiante",
+    "descripcion": "Ejercicio dirigido a la parte baja de la espalda.",
+    "instrucciones": [
+      "Ajusta la máquina para que las caderas estén alineadas con el cojín.",
+      "Inclínate hacia adelante y luego extiende la espalda hacia atrás.",
+      "Controla el movimiento para evitar lesiones."
+    ],
+    "consejos": [
+      "No extiendas demasiado la espalda para evitar sobrecargar la columna.",
+      "Mantén un movimiento fluido y controlado."
+    ],
+    "repeticiones_sugeridas": "3 series de 10-12 repeticiones",
+    "url_video": "https://www.youtube.com/watch?v=phBaGZmJox4",
+    "imagen": "https://example.com/images/extensiones-de-espalda.jpg",
+    "advertencias": "No arquees la espalda baja excesivamente."
+  }
+]
